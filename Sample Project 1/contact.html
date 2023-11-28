@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Contact Us | Code Master Academy</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+
+</head>
+
+<body>
+    <div id="header">
+        <h1 style="text-align:center;"><a href="index.html">code master academy</a></h1>
+    </div>
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a id="active" href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <div class="article column1">
+            <h3 class="uniHeading">Social media:</h3>
+            <p class=mac>Facebook</p>
+            <p class=mac>Google+</p>
+            <p class=mac>Twitter</p>
+            <p class=mac>WhatsApp</p>
+        </div>
+        <div class="article column2">
+            <h3 class="uniHeading">Address:</h3>
+            <p class="mac">CodeMasterAcademy</p>
+            <p class="mac">Geek Street 114</p>
+            <p class="mac">Dublin, Ireland</p>
+        </div>
+        <div class="article column3">
+            <h3 class="uniHeading">Call us:</h3>
+            <p class="mac">CodeMasterAcademy</p>
+            <p class="mac">Geek Street 114</p>
+            <p class="mac">Dublin, Ireland</p>
+        </div>
+    </div>
+    <div class="location">
+         <div id="map"></div>
+    </div>
+
+    <div id="feature">
+        <div class="subscribe">
+            <h3>GEEK NEWS</h3>
+            <form>
+                <div class="lable">
+                    <label for="name" class="title"></label>
+                    <input type="text" id="name" name="name" placeholder="Name" /> </div>
+                <div class="lable">
+                    <label for="email" class="title"></label>
+                    <input type="email" id="email" name="email" placeholder="Email" /> </div>
+                <button class="button button1">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div id="contform">
+
+
+        <form action="MAILTO:ri.schmidta@gmail.com" method="post" enctype="text/plain">
+            <table>
+                <tr>
+                    <td>What is your query related to?</td>
+                    <td>
+                        <select><option>HTML5</option>
+                            <option>CSS3</option>
+                            <option>JavaScrip</option>
+                            <option>jQuery</option>
+                            <option>PHP</option>
+                            <option>Bootstrap</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>First name:</td>
+                    <td><input type="text" name="fname" maxlength="20" placeholder="First Name" /></td>
+                </tr>
+
+                <tr>
+                    <td>Surname:</td>
+                    <td><input type="text" name="sname" maxlength="40" placeholder="Surname" /></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="email" name="email" placeholder="Email" /></td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="2">Please enter your comments/queries in the area down below:</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea rows="25" cols="100" placeholder="Your comments"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input class="button button1" type="submit" value="Submit" onclick="alert('You submited your query. We will get back to you as soon as possible.');" /></td>
+                    <td><input class="button button1" type="reset" value="Reset" /></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+   
+    <!--Javascruot is added to the end of the body tag to load after other elements-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3m_4_-3nSH9_JrDQN621VvNfpNF7NQpg&callback=initMap" type="text/javascript"></script>
+     <footer id="footerUpdate"><p>Copyright &copy; 2017</p>
+    </footer>
+    <script type="text/javascript" src="newScript.js"></script>
+</body>
+
+</html>
