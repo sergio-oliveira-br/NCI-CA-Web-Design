@@ -1,0 +1,17 @@
+h1
+{ 
+      font-family:'Butterfly Kids';
+      color: black;
+      text-align: center;
+}
+
+
+#grid-container
+{
+      display: grid;
+      grid-template-columns: auto;
+      margin: auto;
+      gap: 1%;
+      text-align: center;
+}
+
