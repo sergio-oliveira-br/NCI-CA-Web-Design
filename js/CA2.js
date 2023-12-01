@@ -1,55 +1,82 @@
+//Pag 3 | Our Team
+
 function bear()
 {
-      alert("Introducing Bruno Adventurous," +
-            "the brave bear explorer! At 6 years old," +
-            "Bruno comes from the lush forests of Canada." +
-            "His favorite pastime is mapping out new trails" + 
-            "in the zoo and discovering hidden treasures." + 
-            "Bruno loves to indulge in honey picnics," + 
-            "showcasing his sweet tooth and warm-hearted spirit.");
+      alert("Bruno is the bold exploring bear of Joyful Zoo. " +
+            "Dressed in an explorer vest and carrying a backpack and spear, " +
+            "he loves taking children on exciting expeditions through the zoo. " +
+            "With a map in his paw, Bruno is the embodiment of courage and discovery.")
 }
-
 function bunny()
 {
-      alert("Ricardo Entrepreneur, the business-savvy rabbit," +
-            "is 3 years old and hails from the green hills of Ireland." +
-            "When not busy overseeing zoo operations," +
-            "Ricardo enjoys nibbling on clover snacks" + 
-            "and strategizing his next big carrot investment." +
-            "His sharp mind and quick hops make him" +
-            "an invaluable member of the zoo's administrative team.");
+      alert("Ricardo is a very busy business bunny! " +
+            "Always dressed in a sharp suit, " + 
+            "he is the zoo's executive rabbit. " + 
+            "With his charm and problem-solving skills, " + 
+            "Ricardo ensures that all zoo operations are running smoothly.");
 }
 
 function cops()
 {
-      alert("Meet Penelope and Pablo," +
-            "the dynamic duck duo! Penelope, 4 years old," +
-            "hails from the picturesque ponds of France," + 
-            "while Pablo, 5 years old, quacks proudly" +
-            "from the vibrant landscapes of Spain." +
-            "When they're not patrolling the zoo," +
-            "you can find Penelope splashing in" +
-            "her favorite pond and" +
-            "Pablo enjoying a siesta under the warm sun.")
+      alert("These fearless ducklings are the cutest police officers in town!" +
+            "With their impeccably aligned feathers and shiny badges, " + 
+            "Patrol Officers Penelope and Pablo ensure " + 
+            "that all zoo animals are safe and happy. " + 
+            "With their fun whistles and flashy wings, " + 
+            "they are the fearless guardians of the animal kingdom.")
 }
 
 function cat()
 {
-      alert("Dr. Mia Purring, the caring kitten," + 
-            "is 1 year old and originally from the cozy homes of Japan." + 
-            "Aside from her duties as the zoo's medical expert," +
-            "Mia enjoys practicing her purr therapy on stressed-out animals." +
-            "Her gentle demeanor and love for soothing melodies" +
-            "make her the go-to doctor for all the zoo's residents.")
+      alert("Dr. Mia is the most loving medical kitten " +
+            "you've ever seen! With her first aid kit " + 
+            "and a cute stethoscope around her neck, " + 
+            "she takes care of all the zoo animals. " + 
+            "Whether it's a hurt paw or a sniffly nose, " + 
+            "Dr. Mia is always ready to heal with her gentle, " +
+            "purring touch.")
 }
 
 function dog()
 {
-      alert("Bolt Eager, the energetic puppy," +
-            "is a 2-year-old bundle of joy" +
-            "from the lively streets of the United States." +
-            "Bolt's favorite hobby is chasing his tail" +
-            "and exploring every nook and cranny of the zoo." +
-            "His boundless enthusiasm and wagging tail bring" + 
-            "smiles to visitors of all ages.")
+      alert("Bolt is the most adventurous puppy in Joyful Zoo! " +
+            "Always with his tongue out and a cap in the wind, " + 
+            "he's ready for any challenge. Whether climbing trees, " + 
+            "digging holes, or just spreading joy, " + 
+            "Bolt is the perfect companion for a fun afternoon at the zoo.")
+}
+
+function dino()
+{
+      alert("Say hello to Dizzy Snap-a-Lot, " +
+           "the little dinosaur with a big passion for photography!" +
+           "Sporting a tiny hat and a camera around his neck," + 
+           "Dizzy, at 2 million years old, hails from the prehistoric lands. " +
+           "When not capturing the best moments at the zoo, " + 
+           "he loves exploring the ancient wonders hidden within " +
+           "the exhibits and bringing the past to life through his snapshots.")
+}
+
+function suricate()
+{
+      alert("Sandy Explorer, the adventurous meerkat, " +
+            "is your go-to guide for an exciting journey through the zoo! " +
+            "Hailing from the vast deserts of Africa, Sandy, at 4 years old, " +
+            "has a keen sense of direction and a love for " + 
+            "sharing fascinating facts about all the animal inhabitants. " + 
+            "With a tiny explorer hat atop his head, " + 
+            "Sandy leads young adventurers on educational " + 
+            "busafaris filled with wonder.")
+}
+
+function mouse()
+{
+      alert("Last but not least, there's Whisker Tidy-Tail," +
+           "the diligent mouse in charge of keeping the zoo spick and span! " +
+           "At the tender age of 1, Whisker scurries around " + 
+           "the zoo with a miniature broom and dustpan, " +
+           "ensuring every nook is tidy. " + 
+           "Hailing from the cozy corners of Switzerland, " + 
+           "Whisker has a passion for cleanliness that's larger " +
+           "than life.")
 }
