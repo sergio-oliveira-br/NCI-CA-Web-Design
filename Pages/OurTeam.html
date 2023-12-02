@@ -1,29 +1,39 @@
 <!DOCTYPE html> 
 <html lang="en"> 
 	<head> 
+	    <!--*********************************************-->
+            <!-- CA2 | Web Disign - 2023, by Sergio Oliveira -->
+            <!--*********************************************-->
 		
-		<title>Meet our Team</title>
+		<title>Meet Our Team</title>
 		
+		<!-- META LINKS -->
 		<meta charset="UTF-8">
-
 
 		<!-- LINKS -->
 		<link rel="stylesheet" href="../css/CA2.css">
-
 		<script src="../js/CA2.js"></script>
+
+		<!--ICONS & FONTS -->
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap" rel="stylesheet">
-		<h1>Welcome to the amazing world of Joyful Zoo, where each employee is a unique piece of this enchanted puzzle!</h1>
-		<h1> Meet our lovable team members, each with their special personalities, ready to delight the young audience.</h1>
-		
-	</head>
-	<body>			
-		<p>Meet Our Team</p>
+		<link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Nabla&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
+		<!-- HEADER MSG -->
+		<h1 class="header-our-team">Welcome to the amazing world of Joyful Zoo, where each employee is a unique piece of this enchanted puzzle!</h1>
+		<h1 class="header-our-team">Meet our lovable team members, each with their special personalities, ready to delight the young audience.</h1>
+	</head>
+	<body>
+		<div class="introduction-our-team">
+			<h1 class="msg-intro">Meet Our Team</h1>
+			<p>Meet our lovable team members, each with their special personalities, ready to delight the young audience.</p>
+			<p>Click on the image to learn more about our amazing team</p> 
+		</div>			
 		
-		
+
 		<!-- Images -->
 
 		<!-- TESTE *****
@@ -70,8 +80,6 @@
 
 		</div>
 
-		
-
 		*** TESTE -->
 
 		<!-- TESTE *****
@@ -84,33 +92,44 @@
 
 		*** TESTE -->
 
-		<div class="grid-option">
+		<div class="grid-employees">
+			<img onclick="bear()" class="employee" src="../images/pag3/Optimized-bear.jpg" alt="">
+			<p class="desc01">Exploring Bear: <br>Bruno Adventurous</p>
 			
-			<img onclick="bear()" class="item01" src="../images/pag3/Optimized-bear.jpg" alt="">
-			<p onclick="" class="desc01">Exploring Bear: Bruno Adventurous</p>
+			<img onclick="bunny()" class="employee" src="../images/pag3/Optimized-bunny.jpg" alt="">
+			<p class="desc02">Executive Rabbit: <br>Ricardo Entrepreneur</p>
 			
-			<img onclick="bunny()" class="item02" src="../images/pag3/Optimized-bunny.jpg" alt="">
-			<p class="desc02">Executive Rabbit: Ricardo Entrepreneur</p>
-			
-			<p class="desc03">Duck Police: Penelope and Pablo</p>
-			<img onclick="cops()" class="item03" src="../images/pag3/Optimized-duckies.jpg" alt="">
+			<p class="desc03">Duck Police: <br> Penelope and Pablo</p>
+			<img onclick="cops()" class="employee" src="../images/pag3/Optimized-duckies.jpg" alt="">
 
-			<p class="desc04" >Medical Kitten: Dr. Mia Purring</p>
-			<img onclick="cat()" class="item04" src="../images/pag3/Optimized-kitty.jpg" alt="">
+			<p class="desc04" >Medical Kitten: <br> Dr. Mia Purring</p>
+			<img onclick="cat()" class="employee" src="../images/pag3/Optimized-kitty.jpg" alt="">
 
-			<img onclick="dog()" class="item05" src="../images/pag3/Optimized-puppy.jpg" alt="">
-			<p class="desc05" >Adventurous Puppy: Bolt Eager</p>
+			<img onclick="dog()" class="employee5-6" src="../images/pag3/Optimized-puppy.jpg" alt="">
+			<p class="desc05" >Adventurous Puppy:<br> Bolt Eager</p>
 
-			<img onclick="dino()" class="item06" src="../images/pag3/Optimized-dinosaur.jpg" alt="">
-			<p class="desc06" > Small Dino Photographer: Dizzy Snap-a-Lot </p>
+			<img onclick="dino()" class="employee5-6" src="../images/pag3/Optimized-dinosaur.jpg" alt="">
+			<p class="desc06" > Small Dino Photographer: <br>Dizzy Snap-a-Lot </p>
 
-			<p class="desc07"> Meerkat Guide: Sandy Explorer</p>
-			<img onclick="suricate()" class="item07" src="../images/pag3/Optimized-suricate.jpg" alt="">
+			<p class="desc07"> Meerkat Guide: <br> Sandy Explorer</p>
+			<img onclick="suricate()" class="employee" src="../images/pag3/Optimized-suricate.jpg" alt="">
 
-			<p class="desc08"> Mouse Custodian: Whisker Tidy-Tail</p>
-			<img onclick="mouse()" class="item08" src="../images/pag3/Optimized-mouse.jpg" alt="">
+			<p class="desc08"> Mouse Custodian: <br> Whisker Tidy-Tail</p>
+			<img onclick="mouse()" class="employee" src="../images/pag3/Optimized-mouse.jpg" alt="">
+		</div>
+
+		<!-- FOOTER -->
+		<div class = "footer">
+			<span class="material-symbols-outlined">eco</span>
+			<span class="material-symbols-outlined">forest</span>
+			<span class="material-symbols-outlined">cruelty_free</span>
+			<p class="footer-msg2"> This content was created by Isra, Malu Garcia, 
+							and Sergio Oliveira exclusively for the purpose of CA2 module of Web Design. 
+							Also intends to demonstrate our affection for animals and nature. </p>
+		</div>
+
+		<div class = "subfooter">
+			<p class="footer-msg"> &copy; Web Design 2023 | NCI </p>
 		</div>
 	</body>
-
-
 </html>
