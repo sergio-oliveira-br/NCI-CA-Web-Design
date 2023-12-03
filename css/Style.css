@@ -1,0 +1,387 @@
+/* PAG 2 & PAG 3| Our Team by Sergio Oliveira */
+/* HEADER */
+.footer
+{
+      margin:auto;
+      width:100%;
+      background-color: #73924b;
+      color: white;
+      height: 100px; 
+      text-align: center;
+      bottom:0; 
+      left: 0; 
+      float:inline-end
+}
+
+.footer-msg
+{
+      position:absolute;
+      right: 40%; 
+      text-align: center;
+}
+.footer-msg2
+{
+      position:absolute;
+      right: 5%; 
+      text-align: center;
+}
+
+.subfooter
+{
+      width:100%;
+      float:inline-end;
+      background-color: rgba(186, 144, 54, 0.624);
+      height: 40px; 
+      text-align: center;
+      color: white;
+      bottom:0; 
+      left: 0;
+}
+
+/* PAG 2 | Our Team by Sergio Oliveira */
+/* HEADER */
+.header-our-team
+{ 
+      font-family:'Butterfly Kids';
+      color: green;
+      text-align: center;
+}
+
+.introduction-our-team
+{
+      padding: 50px;
+      background-color: #73924b77;
+      border: 30px solid white;
+}
+
+.msg-intro
+{
+      font-family: Shadows Into Light;
+}
+
+
+/* PAG 2 | Our Team by Sergio Oliveira */
+/* GRID, IMG & DESCRIPTION */
+
+.grid-employees
+{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      border: 5px white;
+}
+
+/* Ajust the size of our employees */
+.employee 
+{
+      height: 400px;
+      width: 365px;
+}
+.employee5-6 /* Ajust a issue in this particulars pictures */
+{
+      height: 416px;
+      width: 365px;
+}
+
+/* Ajust size, description and COLOR for each employee  1 to 8 */
+/* COLOR is the only difference between them */
+.desc01
+{
+      background-color: rgba(102, 212, 133, 0.75); 
+      margin: 0;
+      max-height: 270px;
+      width: 365px;
+      text-align: center;
+      top: 50%;
+      color: white;
+      font-size: x-large;
+      vertical-align: middle;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 45% 0;
+     
+}
+
+.desc02
+{
+      background-color: #206288; 
+      margin: 0;
+      max-height: 270px;
+      width: 365px;
+      text-align: center;
+      top: 50%;
+      color: white;
+      font-size: x-large;
+      vertical-align: middle;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 45% 0;
+}
+
+.desc03
+{
+      background-color: #c2a833; 
+      margin: 0;
+      max-height: 270px;
+      width: 365px;
+      text-align: center;
+      top: 50%;
+      color: white;
+      font-size: x-large;
+      vertical-align: middle;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 45% 0;
+}
+
+.desc04
+{
+      background-color: #d32dd682; 
+      margin: 0;
+      max-height: 270px;
+      width: 365px;
+      text-align: center;
+      top: 50%;
+      color: white;
+      font-size: x-large;
+      vertical-align: middle;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 45% 0;
+}
+
+.desc05
+{
+      background-color: #57a1be; 
+      margin: 0;
+      max-height: 270px;
+      width: 365px;
+      text-align: center;
+      top: 50%;
+      color: white;
+      font-size: x-large;
+      vertical-align: middle;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 45% 0;
+}
+
+.desc06
+{
+      background-color: #d6712d; 
+      margin: 0;
+      max-height: 270px;
+      width: 365px;
+      text-align: center;
+      top: 50%;
+      color: white;
+      font-size: x-large;
+      vertical-align: middle;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 45% 0;
+}
+
+.desc07
+{
+      background-color: #d6712d; 
+      margin: 0;
+      max-height: 270px;
+      width: 365px;
+      text-align: center;
+      top: 50%;
+      color: white;
+      font-size: x-large;
+      vertical-align: middle;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 45% 0;
+}
+
+.desc08
+{
+      background-color: #8db249; 
+      margin: 0;
+      max-height: 270px;
+      width: 365px;
+      text-align: center;
+      top: 50%;
+      color: white;
+      font-size: x-large;
+      vertical-align: middle;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 45% 0;
+}
+
+
+
+/* PAG 3 | Gallery by Sergio Oliveira */
+/* GALLERY */
+
+div.gallery
+{
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+}
+    
+div.gallery:hover 
+{
+      border: 1px solid #777;
+}
+    
+div.gallery img
+{
+      width: 100%;
+      height: auto;
+}
+    
+div.desc 
+{
+      padding: 15px;
+      text-align: center;
+}
+
+
+
+
+
+.H-Gallery
+{
+      text-align: center;
+      /*text-transform: uppercase;*/
+      color: pink;
+      font-family:Nabla;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+
+.gallery-carousel 
+{     
+      width: 1300px;
+      height: 710px;
+      background-color: black;
+      overflow: hidden;
+}
+
+.gallery-carousel .pic
+{
+      width: 400%;
+      animation-name:carouselAnimation;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+}
+
+.gallery-carousel .pic img
+{
+      width: 24.999%;
+}
+
+@keyframes carouselAnimation 
+{
+      0% {margin-left: 0;}
+      20% {margin-left: 0;}
+      25% {margin-left: -100%;}
+      45% {margin-left: -100%;}
+      50% {margin-left: -200%;}
+      70% {margin-left: -200%;}
+      75% {margin-left: -300%;}
+      100% {margin-left: -400%;}
+}
+/* PAG 3 | MEET OUR TEAM */
+
+/*
+.employee-description
+{
+      position:absolute;
+      top: 30%;
+      right: 5%;
+      color: red;
+      display: block;
+      width: 50%;
+      border: 1px solid;
+}
+*/
+
+
+
+/*teste*/
+
+.pic1
+{
+      position:absolute;
+      left: 100px;
+      top: 500px;
+      z-index: 1;
+}
+.pic2
+{
+      position: absolute;
+      left: 650px;
+      top: 700px;
+      z-index: 2;
+}
+.pic3
+{
+      position: absolute;
+      left: 1050px;
+      top: 500px;
+      z-index: 1;
+}
+.pic4
+{
+      position: absolute;
+      left: 300px;
+      top: 1150px;
+      z-index: 1;
+}
+.pic5
+{
+      position: absolute;
+      left: 950px;
+      top: 1200px;
+      z-index: 2;
+}
+/*teste*/
+
+/*FOOTER*/
+.footer
+{
+      margin:auto;
+      width:100%;
+      background-color: #73924b;
+      color: white;
+      height: 100px; 
+      text-align: center;
+      
+      bottom:0; 
+      left: 0; 
+      float:inline-end
+}
+
+.footer-msg
+{
+      position:absolute;
+      right: 40%; 
+      text-align: center;
+}
+.footer-msg2
+{
+      position:absolute;
+      right: 5%; 
+      text-align: center;
+}
+
+.subfooter
+{
+      width:100%;
+      float:inline-end;
+      background-color: rgba(186, 144, 54, 0.624);
+      height: 40px; 
+      text-align: center;
+      color: white;
+      bottom:0; 
+      left: 0;
+}
