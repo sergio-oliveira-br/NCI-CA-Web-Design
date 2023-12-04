@@ -1,3 +1,117 @@
+/*INDEX*/
+.index{
+	background-color: #2C6433;
+}
+
+.index h1{
+	padding: 20px;
+	color:#F2F5D1;
+	font-family: Cambria, bold;
+	text-align: center;
+	
+}
+
+/* HEADER STYLE - LOGO AND MENU*/
+.logo img{
+	width: 13%;
+	padding: 1%;
+	margin-left: 44.5%;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	padding-right: 30px;
+	float: center;
+	text-align: left;
+}
+
+.nav li {
+	list-style: none;
+	margin-left: 25px;		
+}
+		
+.nav a{
+	margin-top: 4px;
+	color:black;
+	font-family: Calibri, bold;
+	font-size: 15px;
+	text-decoration: none;
+	margin-bottom: 10%;
+}
+.nav a:hover{
+	background-color: #00BF08;
+	border-color: #ffffff; 
+	color: #ffffff;
+}
+
+/*FOOTER STYLE*/
+
+.boxsocial {
+		margin: 5%;
+		: rigth;
+	}
+	
+.social {
+		padding-left: 15px;
+		margin-top: 20px;
+		margin-left: 5px;
+		text-decoration: none;
+		}
+		
+.social img{
+		width: 10%;
+		height: 10%;
+	
+}
+/*HOME STYLE*/
+
+.open{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.open h2{
+	color:green;
+	font-family: 'Philosopher', sans-serif;
+	text-align: center;
+	padding-top: 4%;
+}
+
+.open p{
+	font-family: calibri;
+	font-size: 18px;
+	color:black;
+	text-align: center;
+	padding: 5%
+}
+
+.open img{
+	width: 60%;
+	margin-left: 20%
+	
+}
+
+.about{
+	margin-top: 2%;
+	padding: 2% 6% 2% 6%;
+}
+
+.about h2{
+	color: #00BF08;
+	font-family: 'Philosopher', sans-serif;
+	text-align: center;
+}
+
+.about p{
+	font-family: calibri;
+	font-size: 18px;
+	text-align: left;
+	color:black;
+	justify-content: center;
+	align-content: center;
+	text-indent: 40px;
+}
+
 /* PAG 2 & PAG 3| Our Team by Sergio Oliveira */
 /* HEADER */
 .footer
