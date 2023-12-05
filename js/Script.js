@@ -1,4 +1,4 @@
-//Pag 3 | Our Team
+//PAG 2 | Our Team
 
 function bear()
 {
@@ -79,4 +79,178 @@ function mouse()
            "Hailing from the cozy corners of Switzerland, " + 
            "Whisker has a passion for cleanliness that's larger " +
            "than life.")
+}
+
+
+
+/* 
+** PAG 3 | GALLERY
+**    FORM
+** BUY A TICKET
+**     BY 
+** SERGIO OLIVEIRA 
+*/
+ 
+
+function buyTicket()
+{
+      alert("Welcome Zoo, you can get your ticket in a few steps." +
+            "\nLet's do it together")
+
+      do 
+      {
+            var name
+            name = prompt("Please tell me your name: ");
+      }
+      while(name == null || name == "");
+
+      var who
+      who = prompt("Hello " + name + ", is that for you" +
+                  " or for some one else? " +
+                  " Please enter YES for you or NO for someone else.");
+
+      if(who == "YES")
+      {
+            var student = prompt("Are you a student? " +
+                              "\nPlease enter YES or NO");
+            if(student == "YES")
+            {
+                  alert("Your Ticket is €14");
+                  var email = prompt("What is your email? ");
+                  alert("Cool, Welcome to Zoo " + name + 
+                  "\nI've already sent an email to you, " + 
+                  "and all details are there about your chekout");
+
+                  alert("Tks, and see you soon!");
+            }
+
+            else if(student == "NO")
+            {                  
+                  do
+                  { 
+                        age = prompt("Okay, " + name + 
+                              "\nWhat is your age? ");
+                        if(age == "")
+                        {
+                              alert("Oops, looks like you missed your name.");
+                              break;      
+                        }
+
+                        else if(age >= 3 && age <= 18)
+                        {
+                              alert("Your Ticket is €14");
+
+                              var email = prompt("What is your email? ");
+                              alert("Cool, Welcome to Zoo" + name + 
+                              "\I've already sent an email to you" + 
+                              "and all detalls are there about your chekout");
+                        }
+                        else if(age >= 19 && age <= 100)
+                        {
+                              alert("Your Ticket is €20");
+
+                              var email = prompt("What is your email? ");
+                              alert("Cool, Welcome to Zoo " + name + 
+                              "\I've already sent an email to you," + 
+                              "and all detalls are there about your chekout.");
+                        }
+                        else if(age == null)
+                        {
+                              alert("Oops, looks like there is someting wrong.");
+                        }
+                  }
+                  while(age >= 0 && age <=100);
+                  alert("Oops, looks like there is someting wrong with your age."); //need to check
+            }
+            else
+            {
+                  alert("Oops, looks like there is someting wrong."); //need to check
+            }
+      }
+      
+      else if( who == "NO")
+      {
+            do
+            {
+                  var someone = prompt("Please tell me the name of that person");
+
+            }
+            while (someone == null || someone == "");
+
+           var student = prompt("Understood, is this person is a student?" +
+                  "\nPlease enter YES or NO");
+
+           if(student == "YES")
+           {
+                  alert("Your Ticket is €14");
+
+                  var email = prompt("What is your email? ");
+                  alert("Cool, Welcome to Zoo " + someone + 
+                  "\I've already sent an email to you," + 
+                  "and all detalls are there about your chekout");
+           }
+           else if(student == "NO")
+           {
+                  do
+                  {
+                        var age = prompt("Okay " + name + " what is the age of " + someone + "? ");
+                  
+                        if(age <= 3)
+                        {
+                              alert("The ticket is FREE!!!" +
+                              "\nJust present the ID of the " + someone + " and that's it.");
+                              alert("See you soon!");
+                        }
+
+                        else if(age >= 3 && age <= 18)
+                        {     
+                              alert("The ticket is €14")
+
+                              var email = prompt("What is your email? ");
+                              alert("Cool. Welcome to Zoo " + someone + 
+                              "\nI've already sent an email to you," + 
+                              "and all detalls are there about your chekout");
+                        }
+
+                        else if(age >= 19 && age <= 100)
+                        {
+                              alert("The ticket is €20!!!");
+
+                              var email = prompt("What is your email? ");
+                              alert("Cool. Welcome to Zoo " + someone + 
+                              "\nI've already sent an email to you, " + 
+                              "and all details are there about your chekout");
+                        }
+                  }
+                  while(age >= 0 && age <= 100);
+                  alert("Oops, looks like there is someting wrong with your age.");
+           }
+      }
+      else
+      alert("Oops, looks like there is someting wrong."); //need to check
+}
+
+/* 
+** PAG 3 | GALLERY
+**    FORM
+**  FEEDBACK
+**     BY 
+** SERGIO OLIVEIRA 
+*/
+
+function feedback()
+{      
+      
+      var name = prompt("Please tell me your name: ");
+      if(name == null || name == "")
+      {
+            alert("Oops, looks like there is someting wrong."); //need to check
+      }
+      else
+      {
+            prompt("Hello, " + name + 
+                  "! Tell me your experience");
+
+            alert("Thank you for your feedback!");
+      }
 }
