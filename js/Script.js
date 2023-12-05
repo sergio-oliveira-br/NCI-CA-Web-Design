@@ -1,4 +1,38 @@
-//PAG 2 | Our Team
+/* 
+** PAG 2 | Our Team
+**    POPUP
+**     BY 
+** SERGIO OLIVEIRA 
+*/
+
+window.addEventListener("load", function ()
+{
+      setTimeout(function open(event)
+      {
+            document.querySelector(".popup").style.display = "block";
+      }, 1000);
+});
+
+document.querySelector("#close").addEventListener
+("click", function()
+{
+      document.querySelector(".popup").style.display = "none";
+});
+
+document.querySelector(".check-out").addEventListener
+("click", function()
+{
+      document.querySelector(".popup").style.display = "none";
+});
+      
+
+/* 
+** PAG 2 | Our Team
+**  EMPLOYEES
+** DESCRIPTIONS
+**     BY 
+** SERGIO OLIVEIRA 
+*/
 
 function bear()
 {
