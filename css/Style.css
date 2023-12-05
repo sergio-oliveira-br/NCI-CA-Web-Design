@@ -112,8 +112,20 @@
 	text-indent: 40px;
 }
 
-/* PAG 2 & PAG 3| Our Team by Sergio Oliveira */
-/* HEADER */
+
+
+
+
+
+/* 
+** PAG 2 | Our Team 
+**       by 
+** Sergio Oliveira 
+*/
+
+/* FOOTER */
+
+
 .footer
 {
       margin:auto;
@@ -152,8 +164,14 @@
       left: 0;
 }
 
-/* PAG 2 | Our Team by Sergio Oliveira */
-/* HEADER */
+
+/* 
+** PAG 2 | Our Team 
+**     HEADER
+**       by 
+** Sergio Oliveira 
+*/
+
 .header-our-team
 { 
       font-family:'Butterfly Kids';
@@ -173,9 +191,12 @@
       font-family: Shadows Into Light;
 }
 
-
-/* PAG 2 | Our Team by Sergio Oliveira */
-/* GRID, IMG & DESCRIPTION */
+/* 
+**    PAG 2 | Our Team 
+** GRID, IMG & DESCRIPTION
+**          by 
+**    Sergio Oliveira 
+*/
 
 .grid-employees
 {
@@ -320,9 +341,152 @@
 }
 
 
+/* 
+** PAG 3 | GALLERY
+**     SAFARI
+**       by 
+**  Sergio Oliveira 
+*/
 
-/* PAG 3 | Gallery by Sergio Oliveira */
-/* GALLERY */
+.safari
+{
+      border: 3px solid white;
+      text-align: center;
+      font-family: Permanent Marker;
+      background-color: #9eeba65d;
+}
+
+.grid-ticket
+{
+      display: grid;
+      grid-template-columns: auto auto;
+}
+
+.img-ticket
+{
+      margin: 3px;
+      width: 550px;
+      height: 550px;
+      
+      
+}
+.info-ticket
+{
+      background-color: rgba(255, 255, 152, 0.293);
+      margin: 3px;
+      padding-top: 22%;
+      text-align: center;
+      font-size: 25px;
+      font-family: Nova Square;
+      
+}
+
+
+/* 
+** PAG 3 | GALLERY
+** BUY YOUR TICKET
+**       by 
+**  Sergio Oliveira 
+*/
+
+.grid-buy
+{
+      gap: 10px;
+      
+      margin: 3px;
+      
+}
+
+.grid-info-buy
+{
+      display: grid;
+      border: 10px;
+      grid-template-columns: auto auto;
+      background-color: #e1f4e05f;
+}
+
+.grid-img-buy
+{
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+      background-color: white;
+      margin: 5px;
+      
+}
+
+.grid-buy-here
+{
+      font-size: xx-large;
+      text-align: center;
+      padding: 5px;
+      border: 20px solid white;
+      /*background-color: #73924ba6;*/
+}  
+
+
+
+.google-ticket
+{
+      display: inline-flex;
+      align-items: center;
+      padding: 5px;
+      transform: scale(3);
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+}
+.google-feedback
+{
+      position: absolute;
+      left: 1050px;
+      top: 1095px; /* need to fix */
+      z-index: 1;
+
+      transform: scale(3);
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+}
+
+
+
+.grid-img-feedback
+{
+      display: grid;
+      grid-template-rows: auto auto;
+      text-align: center;
+      background-color: white;
+      margin: 5px;
+}
+
+
+.grid-feedback
+{
+      text-align: center;
+      padding: 50px;
+      border: 20px solid white;
+      background-color: rgba(186, 144, 54, 0.351);
+}
+
+.grid-gallery-msg
+{
+      display: grid;
+      grid-template-rows: auto auto auto;
+}
+
+
+
+/* 
+** PAG 3 | GALLERY
+**    GALLERY
+**       by 
+**  Sergio Oliveira 
+*/
 
 div.gallery
 {
@@ -351,14 +515,18 @@ div.desc
 
 
 
+.introduction
+{
+      font-size: 20px;
+      font-family: Cinzel;
+ 
+}
 
 
 .H-Gallery
 {
       text-align: center;
-      /*text-transform: uppercase;*/
-      color: pink;
-      font-family:Nabla;
+      font-family:Cinzel;
 }
 
 p {
@@ -372,95 +540,14 @@ a {
   color: #008CBA;
 }
 
-.gallery-carousel 
-{     
-      width: 1300px;
-      height: 710px;
-      background-color: black;
-      overflow: hidden;
-}
-
-.gallery-carousel .pic
-{
-      width: 400%;
-      animation-name:carouselAnimation;
-      animation-duration: 30s;
-      animation-iteration-count: infinite;
-}
-
-.gallery-carousel .pic img
-{
-      width: 24.999%;
-}
-
-@keyframes carouselAnimation 
-{
-      0% {margin-left: 0;}
-      20% {margin-left: 0;}
-      25% {margin-left: -100%;}
-      45% {margin-left: -100%;}
-      50% {margin-left: -200%;}
-      70% {margin-left: -200%;}
-      75% {margin-left: -300%;}
-      100% {margin-left: -400%;}
-}
-/* PAG 3 | MEET OUR TEAM */
 
 /*
-.employee-description
-{
-      position:absolute;
-      top: 30%;
-      right: 5%;
-      color: red;
-      display: block;
-      width: 50%;
-      border: 1px solid;
-}
+** PAG 3 | GALLERY
+**    FOOTER
+**      BY
+** SERGIO OLIVEIRA
 */
 
-
-
-/*teste*/
-
-.pic1
-{
-      position:absolute;
-      left: 100px;
-      top: 500px;
-      z-index: 1;
-}
-.pic2
-{
-      position: absolute;
-      left: 650px;
-      top: 700px;
-      z-index: 2;
-}
-.pic3
-{
-      position: absolute;
-      left: 1050px;
-      top: 500px;
-      z-index: 1;
-}
-.pic4
-{
-      position: absolute;
-      left: 300px;
-      top: 1150px;
-      z-index: 1;
-}
-.pic5
-{
-      position: absolute;
-      left: 950px;
-      top: 1200px;
-      z-index: 2;
-}
-/*teste*/
-
-/*FOOTER*/
 .footer
 {
       margin:auto;
