@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html lang="en"> 
 	<head> 
-	    <!--*********************************************-->
+		<!--*********************************************-->
             <!-- CA2 | Web Disign - 2023, by Sergio Oliveira -->
             <!--*********************************************-->
 		
@@ -10,138 +10,100 @@
 		<!-- META LINKS -->
 		<meta charset="UTF-8">
 
+		<meta name="description" content="Our Team">
+		<meta name="keywords" content="Zoo, Our Team, Animals, Employee">
+		<meta name="author" content="Sergio Oliveira">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<!-- LINKS -->
-		<link rel="stylesheet" href="../css/CA2.css">
-		<script src="../js/CA2.js"></script>
+		<link rel="stylesheet" href="../css/Style.css">
+		<script src="../js/Script.js"></script>
+
+		<!-- EXTERNAL LINKS 
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		-->
 
 		<!--ICONS & FONTS -->
 
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Nabla&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
-		<!-- HEADER MSG -->
-		<h1 class="header-our-team">Welcome to the amazing world of Joyful Zoo, where each employee is a unique piece of this enchanted puzzle!</h1>
-		<h1 class="header-our-team">Meet our lovable team members, each with their special personalities, ready to delight the young audience.</h1>
-	</head>
-	<body>		
 		<!--HEADER-->
 		<header> 
 			<div class = "row">
 				<div class = "logo">
 					<a href = "index.html">
-						<img src = "Images/logo.png" alt = "logo1">
+						<img src = "images/logo.png" alt = "logo1">
 					</a>
-					
 					<hr>
-				
 					<nav>				
 						<ul class = "nav">
-							<li><a class="btn btn-outline-dark" href="../index.html"> HOME </a> </li>
+							<li><a class="btn btn-outline-dark" href="index.html"> HOME </a> </li>
 							<li><a class="btn btn-outline-dark" href="../Pages/Gallery.html"> GALLERY  </a> </li>
 							<li><a class="btn btn-outline-dark" href="../Pages/OurTeam.html"> OUR TEAM </a> </li>
 							<li><a class="btn btn-outline-dark" href="../Pages/Shop.html"> SHOP </a> </li>
-							<li><a class="btn btn-outline-dark" href="../Pages/WorkWithUS.html"> WORK WITH US </a> </li>
-							<li><a class="btn btn-outline-dark" href="../Pages/ContactUs.html"> CONTACT US  </a> </li>
+							<li><a class="btn btn-outline-dark" href="../pages/WorkWithUS.html"> WORK WITH US </a> </li>
+							<li><a class="btn btn-outline-dark" href="../pages/ContactUs.html"> CONTACT US  </a> </li>
 						</ul>
-					</nav>	<!--END MENU-->
-					
+					</nav>	<!--END MENU-->	
 				</div> <!--LOGO CLASS-->
 			</div>
-		
 		</header> <!--END HEADER-->
+	</head>
+
+	<body>
+
+		<!-- POPUPS -->
+		<div class="popup">
+			<button id="close">&times;</button>
+			<h1>Our Team</h1><br>
+			<h4>
+				Welcome to the amazing world of Zoo, 
+				where each employee is a 
+				unique piece of this enchanted puzzle!
+			</h4><br>
+			<p>
+				This page is dedicated to our employees
+				who do an excellent job
+			</p>
+			<a class="check-out" href="#">Check out</a>
+		</div>
 				
+		<!-- INTRODUCTION -->
 		<div class="introduction-our-team">
 			<h1 class="msg-intro">Meet Our Team</h1>
 			<p>Meet our lovable team members, each with their special personalities, ready to delight the young audience.</p>
 			<p>Click on the image to learn more about our amazing team</p> 
-		</div>			
-		
-
-		<!-- Images -->
-
-		<!-- TESTE *****
-	
-		<div id="grid-conteiner">
-			<button type="button" onclick="bear()"> Exploring Bear: Bruno Adventurous</button>
-			<div id="img-bear"> <img src="../images/pag3/Optimized-bear.jpg" alt="bear" ></div>
-			<p class="employee-description">Bruno is the bold exploring bear of Joyful Zoo.
-			   Dressed in an explorer vest and carrying a backpack full of wonders,
-			   he loves taking children on exciting expeditions through the zoo. 
-			   With his curly mustache and a map in his paw, 
-			   Bruno is the embodiment of courage and discovery.</p>
-
-			<button type="button" onclick="bunny()"> Executive Rabbit: Ricardo Entrepreneur</button>
-			<div id="img-bunny"> <img src="../images/pag3/Optimized-bunny.jpg" alt="bunny"> </div>
-			<p>Ricardo is a very busy business bunny!
-			   Always dressed in a sharp suit and carrying a folder full of carrots (and reports),
-			   he is the zoo's executive rabbit. With his charm and problem-solving skills,
-			   Ricardo ensures that all zoo operations are running smoothly.</p>
-
-			<button type="button" onclick="cops()"> Duck Police: Penelope and Pablo</button>
-			<div id="img-cops"> <img src="../images/pag3/Optimized-duckies.jpg" alt="cops"></div>
-			<p>These fearless ducklings are the cutest police officers in town! 
-			   With their impeccably aligned feathers and shiny badges, 
-			   Patrol Officers Penelope and Pablo ensure that all zoo animals are safe and happy. 
-			   With their fun whistles and flashy wings, they are the fearless guardians of the animal kingdom.</p>
-
-			<button type="button" onclick="cat()"> Medical Kitten: Dr. Mia Purring</button>
-			<div id=""> <img src="../images/pag3/Optimized-kitty.jpg" alt="cat"></div>
-			<p>Dr. Mia is the most loving medical kitten you've ever seen! 
-			   With her first aid kit and a cute stethoscope around her neck, 
-			   she takes care of all the zoo animals. Whether it's a hurt paw or a sniffly nose, 
-			   Dr. Mia is always ready to heal with her gentle, purring touch.</p>
-
-			<button type="button" onclick="dog()"> Adventurous Puppy: Bolt Eager</button>
-			<div id=""> <img src="../images/pag3/Optimized-puppy.jpg" alt="dog"></div>
-			<p>Bolt is the most adventurous puppy in Joyful Zoo! 
-			   Always with his tongue out and a bandana in the wind, 
-			   he's ready for any challenge. Whether climbing trees, digging holes, 
-			   or just spreading joy, Bolt is the perfect companion for a fun afternoon at the zoo.
-		
-			<p>Together, these incredible employees make Joyful Zoo a magical place, 
-			full of laughter, adventures, and learning for all the children who visit!</p>
-
 		</div>
 
-		*** TESTE -->
-
-		<!-- TESTE *****
-
-		<a href="" onclick="bear()"> <img class="pic1" src="../images/pag3/Optimized-bear.jpg" alt=""></a>
-		<a href="" onclick="dog()"> <img class="pic2" src="../images/pag3/Optimized-puppy.jpg" alt=""></a>
-		<a href="" onclick="bunny()"> <img class="pic3" src="../images/pag3/Optimized-bunny.jpg" alt=""></a>
-		<a href="" onclick="cops()"> <img class="pic4" src="../images/pag3/Optimized-duckies.jpg" alt=""></a>
-		<a href="" onclick="cat()"> <img  class="pic5" src="../images/pag3/Optimized-kitty.jpg" alt=""></a>
-
-		*** TESTE -->
-
+		<!-- GRID NAME & IMG -->
 		<div class="grid-employees">
-			<img onclick="bear()" class="employee" src="../images/pag3/Optimized-bear.jpg" alt="">
+			<img onclick="bear()" class="employee" src="../Images/OurTeam/Optimized/Optimized-bear.jpg" alt="">
 			<p class="desc01">Exploring Bear: <br>Bruno Adventurous</p>
 			
-			<img onclick="bunny()" class="employee" src="../images/pag3/Optimized-bunny.jpg" alt="">
+			<img onclick="bunny()" class="employee" src="../Images/OurTeam/Optimized/Optimized-bunny.jpg" alt="">
 			<p class="desc02">Executive Rabbit: <br>Ricardo Entrepreneur</p>
 			
 			<p class="desc03">Duck Police: <br> Penelope and Pablo</p>
-			<img onclick="cops()" class="employee" src="../images/pag3/Optimized-duckies.jpg" alt="">
+			<img onclick="cops()" class="employee" src="../Images/OurTeam/Optimized/Optimized-duckies.jpg" alt="">
 
 			<p class="desc04" >Medical Kitten: <br> Dr. Mia Purring</p>
-			<img onclick="cat()" class="employee" src="../images/pag3/Optimized-kitty.jpg" alt="">
+			<img onclick="cat()" class="employee" src="../Images/OurTeam/Optimized/Optimized-kitty.jpg" alt="">
 
-			<img onclick="dog()" class="employee5-6" src="../images/pag3/Optimized-puppy.jpg" alt="">
+			<img onclick="dog()" class="employee5-6" src="../Images/OurTeam/Optimized/Optimized-puppy.jpg" alt="">
 			<p class="desc05" >Adventurous Puppy:<br> Bolt Eager</p>
 
-			<img onclick="dino()" class="employee5-6" src="../images/pag3/Optimized-dinosaur.jpg" alt="">
+			<img onclick="dino()" class="employee5-6" src="../Images/OurTeam/Optimized/Optimized-dinosaur.jpg" alt="">
 			<p class="desc06" > Small Dino Photographer: <br>Dizzy Snap-a-Lot </p>
 
 			<p class="desc07"> Meerkat Guide: <br> Sandy Explorer</p>
-			<img onclick="suricate()" class="employee" src="../images/pag3/Optimized-suricate.jpg" alt="">
+			<img onclick="suricate()" class="employee" src="../Images/OurTeam/Optimized/Optimized-suricate.jpg" alt="">
 
 			<p class="desc08"> Mouse Custodian: <br> Whisker Tidy-Tail</p>
-			<img onclick="mouse()" class="employee" src="../images/pag3/Optimized-mouse.jpg" alt="">
+			<img onclick="mouse()" class="employee" src="../Images/OurTeam/Optimized/Optimized-mouse.jpg" alt="">
 		</div>
 
 		<!-- FOOTER -->
@@ -157,5 +119,42 @@
 		<div class = "subfooter">
 			<p class="footer-msg"> &copy; Web Design 2023 | NCI </p>
 		</div>
+				<!--FOOTER-->
+		
+				<div class="row">
+					<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+						<div class="col-md-4 d-flex align-items-center">
+							<a href= "index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+								<img class="bi" src = "Images/logo.png" width="80">
+							</a>
+							<span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Zoo, Inc</span>
+						</div>
+		
+						<!--SOCIAL MEDIA-->
+						<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+							
+		<!--FACEBOOK-->		<li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/">
+								<img class="bi" src = "Images/facebook.png"width="40"><link href= ></a></li>
+							
+		<!--INSTAGRAM-->	<li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/">
+								<img class="bi" src = "Images/instagram.png" width="40"><link href=/></a></li>
+							
+		<!--SNAPCHAT-->		<li class="ms-3"><a class="text-body-secondary" href= "https://www.snapchat.com/">
+								<img class="bi" src = "Images/snap.png"width="40"><link href= ></a></li>
+								
+		<!--YOUTUBE-->		<li class="ms-3"><a class="text-body-secondary" href="https://www.youtube.com/">
+								<img class="bi" src = "Images/youtube.png"width="40"><link href= ></a></li>
+						</ul>
+					</footer>
+				</div>
+				
+				<!--SCRIPTS-->
+				<div>
+					<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+					<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+				</div>
+		
 	</body>
 </html>
