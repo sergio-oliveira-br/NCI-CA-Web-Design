@@ -375,3 +375,26 @@ checkButton.addEventListener("click",
             }
       }
 )
+
+
+
+/* 
+** PAG  | Contect Us
+**    POPUP
+**     BY 
+** Israel R Parma
+*/
+
+function validateForm(){
+	
+	var x = document.getElementById('name');
+		if(x.value == null ||x.value == ""){
+			alert ("Name must be filled out");
+			return false;
+		}
+		
+		else if (x.value.legth < 5){
+			alert ("Please enter at least 5 chracters");
+			return false;
+		}
+
