@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T01:44:17.601Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="62rJvjJzsPs4dMCs9Xzr" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-06T01:47:03.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="YQDiGl_NQTzHf0DQKvRa" version="22.1.5" type="github">
   <diagram name="Page-1" id="LySv26DR1oaXgMW20Z0X">
-    <mxGraphModel dx="1985" dy="1869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1462" dy="1553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,27 +8,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-1" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="370" width="100" height="60" as="geometry" />
+          <mxGeometry x="-600" y="-90" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-2" target="yaWvBnxm5K6uvx3PhV37-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-2" value="Msg:&lt;br&gt;Welcome" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="-127" y="370" width="100" height="60" as="geometry" />
+          <mxGeometry x="-417" y="-90" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-4" value="Enter:&amp;nbsp;&lt;br&gt;User Name" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="40" y="370" width="100" height="60" as="geometry" />
+          <mxGeometry x="-250" y="-90" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-10" target="yaWvBnxm5K6uvx3PhV37-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="180" as="targetPoint" />
+            <mxPoint x="270" y="-280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-30" target="yaWvBnxm5K6uvx3PhV37-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-6" value="Ticket:&amp;nbsp;&lt;br&gt;For You" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="240" y="350" width="100" height="100" as="geometry" />
+          <mxGeometry x="-50" y="-110" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-4" target="yaWvBnxm5K6uvx3PhV37-6">
           <mxGeometry relative="1" as="geometry" />
@@ -40,72 +40,72 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-13" value="Enter:&lt;br&gt;Student" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="240" y="120" width="100" height="100" as="geometry" />
+          <mxGeometry x="-50" y="-340" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-14" target="yaWvBnxm5K6uvx3PhV37-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-14" value="Msg:&lt;br&gt;Price €14" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="240" y="-75" width="100" height="60" as="geometry" />
+          <mxGeometry x="-50" y="-535" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-13" target="yaWvBnxm5K6uvx3PhV37-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="100" as="sourcePoint" />
-            <mxPoint x="464" y="-40" as="targetPoint" />
+            <mxPoint x="160" y="-360" as="sourcePoint" />
+            <mxPoint x="174" y="-500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-16" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="45" width="60" height="30" as="geometry" />
+          <mxGeometry x="-30" y="-415" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-18" target="yaWvBnxm5K6uvx3PhV37-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-18" value="Enter:&lt;br&gt;E-mail" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="240" y="-200" width="100" height="60" as="geometry" />
+          <mxGeometry x="-50" y="-660" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-20" target="yaWvBnxm5K6uvx3PhV37-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-20" value="Msg:&lt;br&gt;E-mail sent" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="240" y="-330" width="100" height="60" as="geometry" />
+          <mxGeometry x="-50" y="-790" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-22" target="yaWvBnxm5K6uvx3PhV37-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-22" value="Msg:&lt;br&gt;Tks" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="240" y="-450" width="100" height="60" as="geometry" />
+          <mxGeometry x="-50" y="-910" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-25" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="240" y="-570" width="100" height="60" as="geometry" />
+          <mxGeometry x="-50" y="-1030" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-27" target="yaWvBnxm5K6uvx3PhV37-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-27" value="Enter:&amp;nbsp;&lt;br&gt;Ticket Name" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="240" y="555" width="100" height="60" as="geometry" />
+          <mxGeometry x="-50" y="95" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yaWvBnxm5K6uvx3PhV37-29" value="Ticket was sent to e-mail with:&lt;br&gt;&amp;nbsp;User Name;&lt;br&gt;User Age;&lt;br&gt;&amp;nbsp;User e-mail." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="-160" width="160" height="140" as="geometry" />
+        <mxCell id="yaWvBnxm5K6uvx3PhV37-29" value="Ticket was sent to e-mail with:&lt;br&gt;&amp;nbsp;User Name;&lt;br&gt;User Age;&lt;br&gt;&amp;nbsp;User E-mail." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-1050" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-6" target="yaWvBnxm5K6uvx3PhV37-30">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="380" as="sourcePoint" />
-            <mxPoint x="440" y="510" as="targetPoint" />
+            <mxPoint x="50" y="-80" as="sourcePoint" />
+            <mxPoint x="150" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-30" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="490" width="60" height="30" as="geometry" />
+          <mxGeometry x="-30" y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-154" target="yaWvBnxm5K6uvx3PhV37-99">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="450" y="740" />
-              <mxPoint x="450" y="740" />
+              <mxPoint x="160" y="280" />
+              <mxPoint x="160" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-32" value="Enter:&lt;br&gt;Student" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="240" y="690" width="100" height="100" as="geometry" />
+          <mxGeometry x="-50" y="230" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-34" target="yaWvBnxm5K6uvx3PhV37-35">
           <mxGeometry relative="1" as="geometry" />
@@ -114,43 +114,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-34" value="Msg:&lt;br&gt;Price €14" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="240" y="900" width="100" height="60" as="geometry" />
+          <mxGeometry x="-50" y="440" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-35" target="yaWvBnxm5K6uvx3PhV37-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-35" value="Enter:&lt;br&gt;E-mail" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1040" width="100" height="60" as="geometry" />
+          <mxGeometry x="-50" y="580" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-36" target="yaWvBnxm5K6uvx3PhV37-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-36" value="Msg:&lt;br&gt;E-mail sent" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1200" width="100" height="60" as="geometry" />
+          <mxGeometry x="-50" y="740" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-37" target="yaWvBnxm5K6uvx3PhV37-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-37" value="Msg:&lt;br&gt;Tks" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1350" width="100" height="60" as="geometry" />
+          <mxGeometry x="-50" y="890" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-6" target="yaWvBnxm5K6uvx3PhV37-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="290" y="350" as="sourcePoint" />
-            <mxPoint x="290" y="270" as="targetPoint" />
+            <mxPoint y="-110" as="sourcePoint" />
+            <mxPoint y="-190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-10" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="280" width="60" height="30" as="geometry" />
+          <mxGeometry x="-30" y="-180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-44" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="240.00000000000006" y="1480" width="100" height="60" as="geometry" />
+          <mxGeometry x="-49.99999999999994" y="1020" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-46" target="yaWvBnxm5K6uvx3PhV37-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-46" value="Enter:&lt;br&gt;Age" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="474" y="140" width="100" height="60" as="geometry" />
+          <mxGeometry x="184" y="-320" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-157" target="yaWvBnxm5K6uvx3PhV37-50">
           <mxGeometry relative="1" as="geometry" />
@@ -159,7 +159,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-48" value="Age &amp;lt; 4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="700" y="120" width="100" height="100" as="geometry" />
+          <mxGeometry x="410" y="-340" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-50" target="yaWvBnxm5K6uvx3PhV37-52">
           <mxGeometry relative="1" as="geometry">
@@ -167,36 +167,36 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-50" value="Msg:&lt;br&gt;Ticket Free" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="700" y="-200" width="100" height="60" as="geometry" />
+          <mxGeometry x="410" y="-660" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-52" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="700" y="-570" width="100" height="60" as="geometry" />
+          <mxGeometry x="410" y="-1030" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-80" target="yaWvBnxm5K6uvx3PhV37-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-54" value="Age &amp;gt; 3 &lt;br&gt;&amp;amp;&amp;amp; &lt;br&gt;Age &amp;lt; 19" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="120" width="100" height="100" as="geometry" />
+          <mxGeometry x="740" y="-340" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-48" target="yaWvBnxm5K6uvx3PhV37-56">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="847" y="-200" as="sourcePoint" />
-            <mxPoint x="767" y="-280" as="targetPoint" />
+            <mxPoint x="557" y="-660" as="sourcePoint" />
+            <mxPoint x="477" y="-740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-56" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="45" width="60" height="30" as="geometry" />
+          <mxGeometry x="430" y="-415" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-58" target="yaWvBnxm5K6uvx3PhV37-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-58" value="Msg:&lt;br&gt;Ticket €14" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="-75" width="100" height="60" as="geometry" />
+          <mxGeometry x="740" y="-535" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-54" target="yaWvBnxm5K6uvx3PhV37-60">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="987" y="-340" as="sourcePoint" />
-            <mxPoint x="1089" y="-450" as="targetPoint" />
+            <mxPoint x="697" y="-800" as="sourcePoint" />
+            <mxPoint x="799" y="-910" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -204,50 +204,50 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-60" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="45" width="60" height="30" as="geometry" />
+          <mxGeometry x="760" y="-415" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-62" target="yaWvBnxm5K6uvx3PhV37-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-62" value="Enter:&lt;br&gt;E-mail" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="-190" width="100" height="60" as="geometry" />
+          <mxGeometry x="740" y="-650" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-63" target="yaWvBnxm5K6uvx3PhV37-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-63" value="Msg:&lt;br&gt;E-mail sent" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="-330" width="100" height="60" as="geometry" />
+          <mxGeometry x="740" y="-790" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-66" target="yaWvBnxm5K6uvx3PhV37-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-66" value="Msg:&lt;br&gt;Tks" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="-450" width="100" height="60" as="geometry" />
+          <mxGeometry x="740" y="-910" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-32" target="yaWvBnxm5K6uvx3PhV37-70">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-10" y="740" as="sourcePoint" />
-            <mxPoint x="180" y="840" as="targetPoint" />
+            <mxPoint x="-300" y="280" as="sourcePoint" />
+            <mxPoint x="-110" y="380" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="290" y="710" />
-              <mxPoint x="290" y="835" />
+              <mxPoint y="250" />
+              <mxPoint y="375" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-70" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="820" width="60" height="30" as="geometry" />
+          <mxGeometry x="-30" y="360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-73" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="-570" width="100" height="60" as="geometry" />
+          <mxGeometry x="740" y="-1030" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-48" target="yaWvBnxm5K6uvx3PhV37-76">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="847" y="-100" as="sourcePoint" />
-            <mxPoint x="1037" y="-100" as="targetPoint" />
+            <mxPoint x="557" y="-560" as="sourcePoint" />
+            <mxPoint x="747" y="-560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-76" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="155" width="60" height="30" as="geometry" />
+          <mxGeometry x="600" y="-305" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-84" target="yaWvBnxm5K6uvx3PhV37-82">
           <mxGeometry relative="1" as="geometry" />
@@ -256,72 +256,72 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-78" value="Age &amp;gt; 18&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp; &lt;br&gt;Age &amp;lt; 101" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="120" width="100" height="100" as="geometry" />
+          <mxGeometry x="1070" y="-340" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-54" target="yaWvBnxm5K6uvx3PhV37-80">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1137" y="-100" as="sourcePoint" />
-            <mxPoint x="1337" y="-100" as="targetPoint" />
+            <mxPoint x="847" y="-560" as="sourcePoint" />
+            <mxPoint x="1047" y="-560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-80" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1217" y="155" width="60" height="30" as="geometry" />
+          <mxGeometry x="927" y="-305" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-82" value="Msg:&lt;br&gt;Erro" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="140" width="100" height="60" as="geometry" />
+          <mxGeometry x="1390" y="-320" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-78" target="yaWvBnxm5K6uvx3PhV37-84">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1030" y="110" as="sourcePoint" />
-            <mxPoint x="1040" y="230" as="targetPoint" />
+            <mxPoint x="740" y="-350" as="sourcePoint" />
+            <mxPoint x="750" y="-230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-84" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="155" width="60" height="30" as="geometry" />
+          <mxGeometry x="1250" y="-305" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-86" target="yaWvBnxm5K6uvx3PhV37-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-86" value="Msg:&lt;br&gt;Ticket €14" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="-75" width="100" height="60" as="geometry" />
+          <mxGeometry x="1070" y="-535" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-78" target="yaWvBnxm5K6uvx3PhV37-88">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1367" y="-150" as="sourcePoint" />
-            <mxPoint x="1367" y="-290" as="targetPoint" />
+            <mxPoint x="1077" y="-610" as="sourcePoint" />
+            <mxPoint x="1077" y="-750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-88" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="45" width="60" height="30" as="geometry" />
+          <mxGeometry x="1090" y="-415" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-90" target="yaWvBnxm5K6uvx3PhV37-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-90" value="Enter:&lt;br&gt;E-mail" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="-190" width="100" height="60" as="geometry" />
+          <mxGeometry x="1070" y="-650" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-93" target="yaWvBnxm5K6uvx3PhV37-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-93" value="Msg:&lt;br&gt;E-mail sent" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="-330" width="100" height="60" as="geometry" />
+          <mxGeometry x="1070" y="-790" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-94" target="yaWvBnxm5K6uvx3PhV37-95">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1390" y="-610" as="targetPoint" />
+            <mxPoint x="1100" y="-1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-94" value="Msg:&lt;br&gt;Tks" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="-450" width="100" height="60" as="geometry" />
+          <mxGeometry x="1070" y="-910" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-95" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="-570" width="100" height="60" as="geometry" />
+          <mxGeometry x="1070" y="-1030" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-99" target="yaWvBnxm5K6uvx3PhV37-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-99" value="Enter:&lt;br&gt;Age" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="480" y="710" width="100" height="60" as="geometry" />
+          <mxGeometry x="190" y="250" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-117" target="yaWvBnxm5K6uvx3PhV37-103">
           <mxGeometry relative="1" as="geometry" />
@@ -330,30 +330,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-101" value="Age &amp;lt; 4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="700" y="690" width="100" height="100" as="geometry" />
+          <mxGeometry x="410" y="230" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-147" target="yaWvBnxm5K6uvx3PhV37-131">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2280" y="1230" as="targetPoint" />
+            <mxPoint x="1990" y="770" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1310" y="740" />
-              <mxPoint x="1310" y="740" />
+              <mxPoint x="1020" y="280" />
+              <mxPoint x="1020" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-103" value="Age &amp;gt; 3 &lt;br&gt;&amp;amp;&amp;amp; &lt;br&gt;Age &amp;lt; 19" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="690" width="100" height="100" as="geometry" />
+          <mxGeometry x="740" y="230" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-105" target="yaWvBnxm5K6uvx3PhV37-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-105" value="Msg:&lt;br&gt;Ticket €14" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="900" width="100" height="60" as="geometry" />
+          <mxGeometry x="740" y="440" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-103" target="yaWvBnxm5K6uvx3PhV37-108">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2170" y="1140" as="sourcePoint" />
-            <mxPoint x="2272" y="1030" as="targetPoint" />
+            <mxPoint x="1880" y="680" as="sourcePoint" />
+            <mxPoint x="1982" y="570" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -361,57 +361,57 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-108" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="820" width="60" height="30" as="geometry" />
+          <mxGeometry x="760" y="360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-110" target="yaWvBnxm5K6uvx3PhV37-112">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-110" value="Enter:&lt;br&gt;E-mail" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="1040" width="100" height="60" as="geometry" />
+          <mxGeometry x="740" y="580" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-112" target="yaWvBnxm5K6uvx3PhV37-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-112" value="Msg:&lt;br&gt;E-mail sent" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="1200" width="100" height="60" as="geometry" />
+          <mxGeometry x="740" y="740" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-114" target="yaWvBnxm5K6uvx3PhV37-115">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-114" value="Msg:&lt;br&gt;Tks" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="1350" width="100" height="60" as="geometry" />
+          <mxGeometry x="740" y="890" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-115" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="1480" width="100" height="60" as="geometry" />
+          <mxGeometry x="740" y="1020" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-101" target="yaWvBnxm5K6uvx3PhV37-117">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="1050" as="sourcePoint" />
-            <mxPoint x="550" y="1080" as="targetPoint" />
+            <mxPoint x="-60" y="590" as="sourcePoint" />
+            <mxPoint x="260" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-117" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="725" width="60" height="30" as="geometry" />
+          <mxGeometry x="600" y="265" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-121" target="yaWvBnxm5K6uvx3PhV37-122">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="750" y="1220" />
-              <mxPoint x="750" y="1220" />
+              <mxPoint x="460" y="760" />
+              <mxPoint x="460" y="760" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-121" value="Msg:&lt;br&gt;Ticket Free" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="700" y="900" width="100" height="60" as="geometry" />
+          <mxGeometry x="410" y="440" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-122" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1480" width="100" height="60" as="geometry" />
+          <mxGeometry x="410" y="1020" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-118" target="yaWvBnxm5K6uvx3PhV37-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-118" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="820" width="60" height="30" as="geometry" />
+          <mxGeometry x="430" y="360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-134" target="yaWvBnxm5K6uvx3PhV37-132">
           <mxGeometry relative="1" as="geometry" />
@@ -420,90 +420,93 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-131" value="Age &amp;gt; 18&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp; &lt;br&gt;Age &amp;lt; 101" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="690" width="100" height="100" as="geometry" />
+          <mxGeometry x="1070" y="230" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-132" value="Msg:&lt;br&gt;Erro" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="710" width="100" height="60" as="geometry" />
+          <mxGeometry x="1390" y="250" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-131" target="yaWvBnxm5K6uvx3PhV37-134">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1430" y="1200" as="sourcePoint" />
-            <mxPoint x="1440" y="1320" as="targetPoint" />
+            <mxPoint x="1140" y="740" as="sourcePoint" />
+            <mxPoint x="1150" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-134" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="725" width="60" height="30" as="geometry" />
+          <mxGeometry x="1250" y="265" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-136" target="yaWvBnxm5K6uvx3PhV37-140">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-136" value="Msg:&lt;br&gt;Ticket €20" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="900" width="100" height="60" as="geometry" />
+          <mxGeometry x="1070" y="440" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-131" target="yaWvBnxm5K6uvx3PhV37-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-138" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="820" width="60" height="30" as="geometry" />
+          <mxGeometry x="1090" y="360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-140" target="yaWvBnxm5K6uvx3PhV37-142">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-140" value="Enter:&lt;br&gt;E-mail" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="1040" width="100" height="60" as="geometry" />
+          <mxGeometry x="1070" y="580" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-142" target="yaWvBnxm5K6uvx3PhV37-144">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-142" value="Msg:&lt;br&gt;E-mail sent" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="1200" width="100" height="60" as="geometry" />
+          <mxGeometry x="1070" y="740" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-144" target="yaWvBnxm5K6uvx3PhV37-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-144" value="Msg:&lt;br&gt;Tks" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="1350" width="100" height="60" as="geometry" />
+          <mxGeometry x="1070" y="890" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-145" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="1480" width="100" height="60" as="geometry" />
+          <mxGeometry x="1070" y="1020" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-103" target="yaWvBnxm5K6uvx3PhV37-147">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1530" y="1110" as="sourcePoint" />
-            <mxPoint x="2280" y="1230" as="targetPoint" />
+            <mxPoint x="1240" y="650" as="sourcePoint" />
+            <mxPoint x="1990" y="770" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-147" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="725" width="60" height="30" as="geometry" />
+          <mxGeometry x="951" y="265" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-32" target="yaWvBnxm5K6uvx3PhV37-154">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="670" as="sourcePoint" />
-            <mxPoint x="762" y="670" as="targetPoint" />
+            <mxPoint x="320" y="210" as="sourcePoint" />
+            <mxPoint x="472" y="210" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-154" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="725" width="60" height="30" as="geometry" />
+          <mxGeometry x="80" y="265" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-56" target="yaWvBnxm5K6uvx3PhV37-157">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="45" as="sourcePoint" />
-            <mxPoint x="750" y="-80" as="targetPoint" />
+            <mxPoint x="460" y="-415" as="sourcePoint" />
+            <mxPoint x="460" y="-540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-157" value="Msg:&lt;br&gt;User Too Young" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="700" y="-75" width="100" height="60" as="geometry" />
+          <mxGeometry x="410" y="-535" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-13" target="yaWvBnxm5K6uvx3PhV37-163">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="170" as="sourcePoint" />
-            <mxPoint x="486" y="170" as="targetPoint" />
+            <mxPoint x="50" y="-290" as="sourcePoint" />
+            <mxPoint x="196" y="-290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-163" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="155" width="60" height="30" as="geometry" />
+          <mxGeometry x="80" y="-305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yaWvBnxm5K6uvx3PhV37-171" value="Ticket was sent to e-mail with:&lt;br&gt;&amp;nbsp;User Name;&lt;br&gt;&amp;nbsp;Ticket Name&lt;br&gt;Ticket Age;&lt;br&gt;&amp;nbsp;User e-mail." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="150" y="950" width="160" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
