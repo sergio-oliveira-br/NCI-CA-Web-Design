@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T01:49:24.723Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="At8uM2aszxpdLyPG-tmR" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-06T19:05:53.792Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="e_0fQJoPVTAiKfa9kYWO" version="22.1.5" type="github">
   <diagram name="Page-1" id="LySv26DR1oaXgMW20Z0X">
-    <mxGraphModel dx="3638" dy="2869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1764" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -507,6 +507,9 @@
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-171" value="Ticket was sent to e-mail with:&lt;br&gt;&amp;nbsp;User Name;&lt;br&gt;&amp;nbsp;Ticket Name&lt;br&gt;Ticket Age;&lt;br&gt;&amp;nbsp;User e-mail." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="1280" y="950" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yaWvBnxm5K6uvx3PhV37-172" value="&lt;h1&gt;Get Your Pass - Button Buy&lt;/h1&gt;&lt;p&gt;The flowchart below shows the logic adopted in the interaction between the system and the user.&lt;/p&gt;&lt;p&gt;When clicking on the button &quot;buy&quot;, the system will start with a welcome message, and then, for a personalized interaction, the user name will be requested by the system.&lt;/p&gt;&lt;p&gt;Once the user inputs their name, the system will inquire if they want to purchase the ticket for themselves or someone else.&lt;/p&gt;&lt;p&gt;After acquiring this information, the system evaluates four possibilities to define the price of the ticket.&lt;/p&gt;&lt;p&gt;Being them, less than three years the entry will be free.&lt;/p&gt;&lt;p&gt;Between 4 years and 18, the amount to be paid is €14.&lt;/p&gt;&lt;p&gt;Over 18 years, the amount to be paid will be €20.&lt;/p&gt;&lt;p&gt;And if the applicant is a student, regardless of age, the price will be €14.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="-970" width="570" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
