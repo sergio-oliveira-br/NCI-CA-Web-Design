@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T01:47:03.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="YQDiGl_NQTzHf0DQKvRa" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-06T01:47:46.078Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="JQAFeCZ7qz-9r3X2Lilg" version="22.1.5" type="github">
   <diagram name="Page-1" id="LySv26DR1oaXgMW20Z0X">
-    <mxGraphModel dx="1462" dy="1553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3638" dy="2869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
           <mxGeometry x="-50" y="95" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-29" value="Ticket was sent to e-mail with:&lt;br&gt;&amp;nbsp;User Name;&lt;br&gt;User Age;&lt;br&gt;&amp;nbsp;User E-mail." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="150" y="-1050" width="160" height="140" as="geometry" />
+          <mxGeometry x="1280" y="-1050" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yaWvBnxm5K6uvx3PhV37-6" target="yaWvBnxm5K6uvx3PhV37-30">
           <mxGeometry relative="1" as="geometry">
@@ -506,7 +506,7 @@
           <mxGeometry x="80" y="-305" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yaWvBnxm5K6uvx3PhV37-171" value="Ticket was sent to e-mail with:&lt;br&gt;&amp;nbsp;User Name;&lt;br&gt;&amp;nbsp;Ticket Name&lt;br&gt;Ticket Age;&lt;br&gt;&amp;nbsp;User e-mail." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="150" y="950" width="160" height="140" as="geometry" />
+          <mxGeometry x="1280" y="950" width="160" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
