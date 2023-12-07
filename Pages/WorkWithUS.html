@@ -45,3 +45,47 @@
 			</div>
 		
 		</header> <!--END HEADER-->
+		
+		<div class ="formcenter">
+			<div class="form">
+				<h3>Work with us!</h3> <br>
+				</div>
+				
+				<div class="form">
+				
+					<form>
+						Your name: * <br>
+							<input type="text" name="fname" size="30" maxlength="20" minlength="3" required> <br> <br>
+							
+						Phone number: * <br>
+							<input type="tel" name="pnumber" size="30" minlength="10" maxlength="10" pattern=[0-9]{10} title="Please enter an exactly 10-digit phone number"  placeholder="012 345 6789" required> <br><br>
+							
+						E-mail: * <br>
+							<input type="email" name="email" size="30" placeholder="adoptapet@andbehappy.ie" required> <br> <br>
+							
+						How would you like to be contacted? <br>
+							<input type="radio" name="contact" value="E-mail">E-mail    
+							<input type="radio" name="contact" value="Phone">Phone <br><br>
+							
+						What type of job are you looking for? <br>
+						<select name = "pet">
+							<option value="freddie">Vet</option>
+							<option value="bowie">Childcare</option>
+							<option value="amy">Biologist</option>
+							<option value="pink">Other</option>					
+						</select> <br><br>
+						
+						Write a little bit about yourself and why you would be a great employee at our zoo! <br>
+							<textarea name="comments" rows="5" cols="50"></textarea> <br><br>
+							
+							<input type="checkbox" name="tc" value="agree">I agree to the Terms &amp; Conditions <br>
+							<input type="checkbox" name="offer" value="accept offer"> I want to receive e-mails and updates from the zoo <br><br>
+							
+							<input type="image" src="../Images/WorkWithUs/submit.png" alt="Submit" width="20%">
+						
+						
+					</form>
+				</div>
+			</div>
+		</body>
+</html>
