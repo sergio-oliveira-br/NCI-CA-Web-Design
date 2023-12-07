@@ -1,3 +1,12 @@
+/*
+* INDEX
+*/
+function IndexPop() {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'block';
+        }
+
+
 /* 
 ** PAG 2 | Our Team
 **    POPUP
