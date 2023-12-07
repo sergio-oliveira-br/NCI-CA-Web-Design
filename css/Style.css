@@ -792,6 +792,10 @@ input::-webkit-outer-spin-button
 */
 /*CONTACT US*/
 
+.rowContact{
+	margin:3%;	
+}
+
 .maps{
 	width: 90%;
 	margin: 5%;
