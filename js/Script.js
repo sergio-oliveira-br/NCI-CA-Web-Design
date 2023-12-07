@@ -320,7 +320,7 @@ function buyTicket()
                               } 
                               while (!emailPattern.test(email));
 
-                              alert("Cool, Welcome to Zoo " + name + " !" +
+                              alert("Cool, Welcome to Zoo " + someone + " !" +
                               "\nI've already sent an email to you " + 
                               "and all details are there about your checkout");
                         }
