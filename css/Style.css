@@ -667,10 +667,12 @@ a {
       left: 0;
 }
 
-
-
-
-
+/*
+** PAG 4 | GALLERY
+**     GAME
+**      BY
+** SERGIO OLIVEIRA
+*/
 
 /* Import Google font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap");
@@ -688,7 +690,19 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #4a98f7;
+  background:#EBEBE8;
+}
+
+.exit
+{
+      display: block;
+      margin: 0 0 20px auto;
+      background-color: transparent;
+      font-size: 25px;
+      color: #778A35;
+      border: none;
+      outline: none;
+      cursor: pointer;
 }
 
 .wrapper 
@@ -700,6 +714,10 @@ a {
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+.wrapper h1
+{ color: #31352E;}
+
+
 .wrapper header
 {
       font-size: 18px;
@@ -707,10 +725,16 @@ a {
       color: #333;
 }
 
+
 .wrapper p 
 {
+      display:inline;
       color: #333;
+      margin: 0;
+      padding: 0;
 }
+
+
 
 .wrapper .input-field 
 {
@@ -752,8 +776,8 @@ input::-webkit-outer-spin-button
 .input-field button 
 {
       border: none;
-      background: #4a98f7;
-      color: #fff;
+      background: #D1E2C4;
+      color: #31352E;
       cursor: pointer;
       transition: 0.3s;
 }
@@ -761,6 +785,7 @@ input::-webkit-outer-spin-button
 {
       transform: scale(0.97);
 }
+
 
 /*CONTACT US
 *
