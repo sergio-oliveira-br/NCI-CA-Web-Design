@@ -456,3 +456,127 @@ function validateForm(){
 	
 	
 }
+
+
+
+/* 
+** PAG 5 | SHOP
+**  BUY A GIFT
+**     BY
+**    MALU
+*/   
+
+var item1 = 0;
+var item2 = 0;
+var item3 = 0;
+var item4 = 0;
+var item5 = 0;
+var item6 = 0;
+var item7 = 0;
+var item8 = 0;
+
+function buy1()
+{
+      alert("Hello!")
+      var input1 = prompt("This costa €10!" + 
+                         "\nHow many itens would you like?")
+      item1 = input1 * 10;
+      
+      alert("The total is: €" + item1)
+      alert("Your total so far is: € " + (item1 + item2 + item3 + item4 +
+                                          item5 + item6 + item7 + item8))
+};
+
+function buy2()
+{
+      alert("Hello!")
+      var input2 = prompt("This costa €50!" + 
+                         "\nHow many itens would you like?")
+      item2 = (input2 * 50);
+            
+      alert("The total is: €" + item2)
+      alert("Your total so far is: € " + (item1 + item2 + item3 + item4 +
+                                          item5 + item6 + item7 + item8))
+};
+
+function buy3()
+{
+      alert("Hello!")
+      var input3 = prompt("This costa €22!" + 
+                         "\nHow many itens would you like?")
+      item3 = input3 * 22;
+      
+      alert("The total is: €" + item3)
+      alert("Your total so far is: € " + (item1 + item2 + item3 + item4 +
+                                          item5 + item6 + item7 + item8))
+};
+
+function buy4()
+{
+      alert("Hello!")
+      var input4 = prompt("This costa €?!" + 
+                         "\nHow many itens would you like?")
+      item4 = input4 * 50;
+      
+      alert("The total is: €" + item4)
+      alert("Your total so far is: € " + (item1 + item2 + item3 + item4 +
+                                          item5 + item6 + item7 + item8))
+};
+
+function buy5()
+{
+      alert("Hello!")
+      var input5 = prompt("This costa €50!" + 
+                         "\nHow many itens would you like?")
+      item5 = input5 * 50;
+      
+      alert("The total is: €" + item5)
+      alert("Your total so far is: € " + (item1 + item2 + item3 + item4 +
+                                          item5 + item6 + item7 + item8))
+};
+
+function buy6()
+{
+      alert("Hello!")
+      var input6 = prompt("This costa €50!" + 
+                         "\nHow many itens would you like?")
+      item6 = input6 * 50;
+      
+      alert("The total is: €" + item6)
+      alert("Your total so far is: € " + (item1 + item2 + item3 + item4 +
+                                          item5 + item6 + item7 + item8))
+};
+
+function buy7()
+{
+      alert("Hello!")
+      var input7 = prompt("This costa €50!" + 
+                         "\nHow many itens would you like?")
+      item7 = input7 * 50;
+
+      x = item1 + item2 + item3 + item4 +item5 + item6 + item7 +item8;
+      
+      alert("The total is: €" + item4)
+      alert("Your total so far is: € " + (item1 + item2 + item3 + item4 +
+                                          item5 + item6 + item7 + item8))
+};
+
+function buy8()
+{
+      alert("Hello!")
+      var input8 = prompt("This costa €50!" + 
+                         "\nHow many itens would you like?")
+      item8 = input8 * 50;
+
+      x = item1 + item2 + item3 + item4 +item5 + item6 + item7 +item8;
+      
+      alert("The total is: €" + item4)
+      alert("Your total so far is: € " + (item1 + item2 + item3 + item4 +
+                                          item5 + item6 + item7 + item8))
+};
+
+function shopping()
+{
+      alert("Let's see what you have: ")      
+      alert("Your TOTAL is: € " + (item1 + item2 + item3 + item4 +item5 + item6 + item7 +item8))
+};
