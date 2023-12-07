@@ -44,62 +44,77 @@
 			</div>
 		
 		</header> <!--END HEADER-->
-
-
-			<div class = "row"> 
-		<div class = "col-md-6"> 
-			<iframe  class = "containerContact"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.6828975201934!2d-6.245567723700838!3d53.348932374530506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8cd86e97e7%3A0x6d51b774ee7fa935!2sFaculdade%20Nacional%20da%20Irlanda!5e0!3m2!1spt-BR!2sie!4v1701795272672!5m2!1spt-BR!2sie" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		</div>
+<!--ROW CONTACU US-->
+	
+		<div class = "row"> 
 		
-		<div class = "col-md-6">
-			<div class = "containerContact">
+		<!--MAP-->
+			<div class = "col-md-6"> 
+				<iframe  class = "maps"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.6828975201934!2d-6.245567723700838!3d53.348932374530506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8cd86e97e7%3A0x6d51b774ee7fa935!2sFaculdade%20Nacional%20da%20Irlanda!5e0!3m2!1spt-BR!2sie!4v1701795272672!5m2!1spt-BR!2sie" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+	
+		<!--CONTACT-->
+			<div class = "col-md-6">
+				<div class = "containerContact">
+					
+					<!--H1-->
 					<div class = "contactUs"> 
 						<h1> CONTACT US</h1>
 					</div>	
 					
-							<form id="myForm" action = "message.html" method = "post" onSubmit = "validateForm();">
+					<!--FORM-->
+					<form  method = "post" onSubmit = "return validateForm();">
 						
-							<label for="name">Name:</label>
+						<!--INPUT NAME-->
+						<div class ="form">
+							<svg class = "iconForm" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+							  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+							  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+							</svg>
+							<label for="name">NAME: </label>
 							<input type="text" id="name" name="">
-
-							<br>
-
-							<label for="phone">Phone:</label>
-							<input type="tel" id="Phone" name="">
-
-							<br>
-
-							<label for="email">Email:</label>
-							<input type="email" id="email" name="email">
-
-							<br>
-							<input type="button" value = "submit">
-						</form>					
+						</div>
 						
-			</div>
+						<!--INPUT PHONE-->
+						<div class ="form">
+							<svg class = "iconForm"xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+							  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+							</svg>
+							<label for="phone">PHONE: </label>
+							<input type="tel" id="phone" name="" placeholder = "(XXX)-XXX-XXXX" pattern = "[0-9]{10}" maxlength = "10">
+						</div>
+						
+						<!--INPUT EMAIL-->
+						<div class ="form">	
+							<svg class = "iconForm" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+							  <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+							  <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+							</svg>
+							<label for="email">EMAIL: </label>
+							<input type="email" id="email" name="email">
+						</div>
+						
+						<!--INPUT AGREE-->
+						<div class = "divAgree">
+							<div>
+								<input type = "checkbox" name = "AgreeT&C" value = "YesAgreeT&C"> I agree to your T&C 
+							</div>
+						</div>
+						
+						<!--BUTTON-->
+						<div class = "divButton">
+							<input class = "formButton"type="submit" value = "submit">
+						</div>
+						
+					</form>					
+						
+				</div>
 		
-		</div>
+			</div> <!--END CONTACT DIV-->
 	
-	</div> <!--ROW-->
+		</div> <!--END ROW-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				<!--FOOTER-->
+<!--FOOTER-->
 		
 		<div class="row">
 			<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
