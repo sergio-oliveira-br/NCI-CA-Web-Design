@@ -789,9 +789,7 @@ input::-webkit-outer-spin-button
 
 /*CONTACT US
 *
-*
 */
-
 .maps{
 	width: 90%;
 	margin: 5%;
@@ -812,6 +810,13 @@ input::-webkit-outer-spin-button
 	font-family: Calibri;	
 }
 
+.divAgree{
+	margin-left: 10%;
+}
+.divButton{
+	margin-left: 15%;
+}
+
 .formButton{
 	background-color:#28FD03;
 	border: #28FD03;
@@ -825,6 +830,7 @@ input::-webkit-outer-spin-button
 	cursor: pointer;	
 }
 
+
  .error {
         border: 2px solid red;
 }
@@ -834,3 +840,5 @@ input::-webkit-outer-spin-button
 	height: 30px;
 	color: #2C6433;
 }
+
+
