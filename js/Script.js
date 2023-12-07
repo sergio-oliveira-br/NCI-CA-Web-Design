@@ -575,8 +575,47 @@ function buy8()
                                           item5 + item6 + item7 + item8))
 };
 
+
+/* 
+** PAG 5 | SHOP
+**  BUY A GIFT
+**  TOTALIZER
+**     BY
+**    MALU
+*/ 
+
+/*
 function shopping()
 {
       alert("Let's see what you have: ")      
-      alert("Your TOTAL is: € " + (item1 + item2 + item3 + item4 +item5 + item6 + item7 +item8))
+      alert("Your TOTAL is: € " + (item1 + item2 + item3 + item4 + 
+      				   item5 + item6 + item7 +item8))
 };
+*/
+
+
+function sendShop() 
+{
+      alert("Let's see what you have: ")
+      alert("Your TOTAL is: € " + (item1 + item2 + item3 + item4 + 
+				   item5 + item6 + item7 + item8));
+  
+      var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // this is the pattern
+  
+      do 
+      {
+            var order = prompt("Please enter your e-mail:");
+
+            if (!emailPattern.test(order)) 
+            {
+                  alert("Invalid email address. Please enter a valid email.");
+            }
+      } 
+      while (!emailPattern.test(order));
+  
+      alert("I've already sent an e-mail to " + order +
+          "\nand all details about your order are there.");
+  
+      alert("We are grateful for your order with us!");
+  }
+  
