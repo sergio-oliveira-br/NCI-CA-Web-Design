@@ -133,7 +133,6 @@ function mouse()
            "than life.")
 }
 
-
 /* 
 ** PAG 3 | GALLERY
 **    FORM
@@ -168,9 +167,9 @@ function buyTicket()
             {
                   alert("Your Ticket is €14");
                   var email = prompt("What is your email? ");
-                  alert("Cool, Welcome to Zoo " + name + 
+                  alert("Cool, Welcome to Zoo " + name + " !" +
                   "\nI've already sent an email to you, " + 
-                  "and all details are there about your chekout");
+                  "and all details are there about your checkout");
 
                   alert("Tks, and see you soon!");
             }
@@ -211,9 +210,9 @@ function buyTicket()
                               } 
                               while (!emailPattern.test(email));
 
-                              alert("Cool, Welcome to Zoo " + name + 
+                              alert("Cool, Welcome to Zoo " + name + " !" +
                               "\nI've already sent an email to you " + 
-                              "and all details are there about your chekout");
+                              "and all details are there about your checkout");
                         }
                         else if(age >= 19 && age <= 100)
                         {
@@ -232,9 +231,9 @@ function buyTicket()
                               } 
                               while (!emailPattern.test(email));
 
-                              alert("Cool, Welcome to Zoo " + someone + 
+                              alert("Cool, Welcome to Zoo " + someone + " !" +
                                     "\nI've already sent an email to you, " + 
-                                    "and all details are there about your chekout");
+                                    "and all details are there about your checkout");
                         }
                         else if(age == "")
                         {
@@ -266,9 +265,9 @@ function buyTicket()
                   alert("Your Ticket is €14");
 
                   var email = prompt("What is your email? ");
-                  alert("Cool, Welcome to Zoo " + someone + 
+                  alert("Cool, Welcome to Zoo " + someone + " !" +
                   "\nI've already sent an email to you," + 
-                  "and all detalls are there about your chekout");
+                  "and all details are there about your checkout.");
            }
            else if(student == "NO")
            {
@@ -300,9 +299,9 @@ function buyTicket()
                               } 
                               while (!emailPattern.test(email));
 
-                              alert("Cool, Welcome to Zoo " + name + 
+                              alert("Cool, Welcome to Zoo " + someone + " !" +
                               "\nI've already sent an email to you " + 
-                              "and all details are there about your chekout");
+                              "and all details are there about your checkout");
                         }
 
                         else if(age >= 19 && age <= 100)
@@ -321,9 +320,9 @@ function buyTicket()
                               } 
                               while (!emailPattern.test(email));
 
-                              alert("Cool, Welcome to Zoo " + name + 
+                              alert("Cool, Welcome to Zoo " + name + " !" +
                               "\nI've already sent an email to you " + 
-                              "and all details are there about your chekout");
+                              "and all details are there about your checkout");
                         }
                   }
                   while(age <= 0 && age >=100);
@@ -332,7 +331,6 @@ function buyTicket()
       else
       alert("Oops, looks like there is someting wrong."); //need to check
 }
-
 
 /* 
 ** PAG 3 | GALLERY
