@@ -838,6 +838,9 @@ input::-webkit-outer-spin-button
 	margin:3%;	
 }
 
+.divContact{
+	margin: 20%;	
+}
 .maps{
 	width: 90%;
 	margin: 5%;
