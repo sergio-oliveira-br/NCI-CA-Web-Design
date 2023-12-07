@@ -308,10 +308,19 @@ function feedback()
       }
       else
       {
-            prompt("Hello, " + name + 
+            var feedback = prompt("Hello, " + name + 
                   "! Tell me your experience");
-
-            alert("Thank you for your feedback!");
+            
+            if(feedback == "") 
+            {
+                  alert("Oops! I didn't get your feedback." +
+                       "\n=["); //need to check
+                  
+            }
+            else
+            {     
+                  alert("Thank you for your feedback!");
+            }
       }
 }
 
