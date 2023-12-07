@@ -762,3 +762,50 @@ input::-webkit-outer-spin-button
       transform: scale(0.97);
 }
 
+/*CONTACT US
+*
+*
+*/
+
+.maps{
+	width: 90%;
+	margin: 5%;
+	height: 100%;
+}
+.contactUs h1{
+	margin-top: 5%;
+	align-items: center;
+	text-align: left;
+	color: #00BF08;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 50px;
+}
+
+.form{
+	padding: 1%;
+	margin: 1%;
+	font-family: Calibri;	
+}
+
+.formButton{
+	background-color:#28FD03;
+	border: #28FD03;
+	border-radius: 15px;
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: calibri;
+	margin: 4px 2px;
+	cursor: pointer;	
+}
+
+ .error {
+        border: 2px solid red;
+}
+
+.iconForm{
+	width: 30px;
+	height: 30px;
+	color: #2C6433;
+}
