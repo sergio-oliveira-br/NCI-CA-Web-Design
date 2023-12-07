@@ -134,7 +134,6 @@ function mouse()
 }
 
 
-
 /* 
 ** PAG 3 | GALLERY
 **    FORM
@@ -147,7 +146,7 @@ function mouse()
 function buyTicket()
 {
       alert("Welcome Zoo, you can get your ticket in a few steps." +
-            "\nLet's do it together")
+            "\nLet's do it together!")
 
       do 
       {
@@ -195,32 +194,54 @@ function buyTicket()
                                     "\nJust present the ID, and that's it.");
                         }
                         
-
                         else if(age >= 4 && age <= 18)
                         {
                               alert("Your Ticket is €14");
 
-                              var email = prompt("What is your email? ");
-                              alert("Cool, Welcome to Zoo" + name + 
-                              "\I've already sent an email to you" + 
-                              "and all detalls are there about your chekout");
+                              var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // standard
+
+                              do 
+                              {
+                                    var email = prompt("What is your email? ");
+                                    
+                                    if (!emailPattern.test(email)) 
+                                    {
+                                          alert("Invalid email address. Please enter a valid email.");
+                                    }
+                              } 
+                              while (!emailPattern.test(email));
+
+                              alert("Cool, Welcome to Zoo " + name + 
+                              "\nI've already sent an email to you " + 
+                              "and all details are there about your chekout");
                         }
                         else if(age >= 19 && age <= 100)
                         {
                               alert("Your Ticket is €20");
 
-                              var email = prompt("What is your email? ");
-                              alert("Cool, Welcome to Zoo " + name + 
-                              "\I've already sent an email to you," + 
-                              "and all detalls are there about your chekout.");
+                              var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // standard
+  
+                              do 
+                              {
+                                    var email = prompt("What is your email? ");
+                                    
+                                    if (!emailPattern.test(email)) 
+                                    {
+                                          alert("Invalid email address. Please enter a valid email.");
+                                    }
+                              } 
+                              while (!emailPattern.test(email));
+
+                              alert("Cool, Welcome to Zoo " + someone + 
+                                    "\nI've already sent an email to you, " + 
+                                    "and all details are there about your chekout");
                         }
-                        else if(age == null)
+                        else if(age == "")
                         {
-                              alert("Oops, looks like there is someting wrong.");
+                              alert("Oops, I didn't get your age.");
                         }
                   }
-                  while(age >= 0 && age <=100);
-                  alert("Oops, looks like there is someting wrong with your age."); //need to check
+                  while(age <= 0 && age >=100);
             }
             else
             {
@@ -238,7 +259,7 @@ function buyTicket()
             while (someone == null || someone == "");
 
            var student = prompt("Understood, is this person is a student?" +
-                  "\nPlease enter YES or NO");
+                                "\nPlease enter YES or NO");
 
            if(student == "YES")
            {
@@ -266,29 +287,52 @@ function buyTicket()
                         {     
                               alert("The ticket is €14")
 
-                              var email = prompt("What is your email? ");
-                              alert("Cool. Welcome to Zoo " + someone + 
-                              "\nI've already sent an email to you," + 
-                              "and all detalls are there about your chekout");
+                              var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // standard
+
+                              do 
+                              {
+                                    var email = prompt("What is your email? ");
+                                    
+                                    if (!emailPattern.test(email)) 
+                                    {
+                                          alert("Invalid email address. Please enter a valid email.");
+                                    }
+                              } 
+                              while (!emailPattern.test(email));
+
+                              alert("Cool, Welcome to Zoo " + name + 
+                              "\nI've already sent an email to you " + 
+                              "and all details are there about your chekout");
                         }
 
                         else if(age >= 19 && age <= 100)
                         {
                               alert("The ticket is €20!!!");
+                              var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // standard
 
-                              var email = prompt("What is your email? ");
-                              alert("Cool. Welcome to Zoo " + someone + 
-                              "\nI've already sent an email to you, " + 
+                              do 
+                              {
+                                    var email = prompt("What is your email? ");
+                                    
+                                    if (!emailPattern.test(email)) 
+                                    {
+                                          alert("Invalid email address. Please enter a valid email.");
+                                    }
+                              } 
+                              while (!emailPattern.test(email));
+
+                              alert("Cool, Welcome to Zoo " + name + 
+                              "\nI've already sent an email to you " + 
                               "and all details are there about your chekout");
                         }
                   }
-                  while(age >= 0 && age <= 100);
-                  alert("Oops, looks like there is someting wrong with your age.");
+                  while(age <= 0 && age >=100);
            }
       }
       else
       alert("Oops, looks like there is someting wrong."); //need to check
 }
+
 
 /* 
 ** PAG 3 | GALLERY
