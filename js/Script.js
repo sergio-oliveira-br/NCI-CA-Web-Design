@@ -15,23 +15,26 @@ window.addEventListener("load", function ()
 });
 
 //CLOSE
-
-
-document.querySelector("#close").addEventListener
-("click", function()
+document.addEventListener("DOMContentLoaded", 
+function()
 {
-      document.querySelector(".popup").style.display = "none";
-})
-
-
-document.querySelector(".check-out").addEventListener
-("click", function()
-{
-      document.querySelector(".popup").style.display = "none"; 
-})
-
-
-      
+      console.log("DOM Loaded");
+  
+      document.querySelector("#close").addEventListener("click", 
+      function()
+      {
+            window.location.href = "../Pages/Shop.html";  
+            /* document.querySelector(".popup").style.display = "none"; */
+      });
+  
+      document.querySelector(".check-out").addEventListener("click", 
+      function()
+      {
+            document.querySelector(".popup").style.display = "none";
+      });
+});
+  
+  
 /* 
 ** PAG 2 | Our Team
 **  EMPLOYEES
@@ -311,90 +314,73 @@ function feedback()
 */
 
 
+document.addEventListener("DOMContentLoaded", 
+function()
+{
+      const input = document.querySelector("input"), 
+      guess = document.querySelector(".guess"), 
+      checkButton = document.querySelector(".button-guess"), 
+      remainChances = document.querySelector(".chances"); 
 
-// Get the DOM elements and initialize the game 
-const input = document.querySelector("input"), 
-guess = document.querySelector(".guess"), 
-checkButton = document.querySelector(".button-guess"), 
-remainChances = document.querySelector(".chances"); 
+      input.focus(); 
 
-// Set the focus on input field
-input.focus(); 
+      let randomNum = Math.floor(Math.random() * 100); 
+      let chance = 10; 
 
-let randomNum = Math.floor(Math.random() * 100); 
-let chance = 10; 
-
-// Listen for the click event on the check button
-checkButton.addEventListener("click",
-() => 
-      { 
-            // Decrement the chance variable on every click
+      checkButton.addEventListener("click", () => 
+      {
             chance--; 
 
-            // Get the value from the input field 
             let inputValue = parseInt(input.value); 
-            // Check if the input value is equal to the random number
             if (inputValue === randomNum) 
             { 
-                  // Update guessed number, disable input, check button text and color. 
-                  [guess.textContent, input.disabled] = ["Congratulations", true]; 
-                  [checkButton.textContent, guess.style.color] = ["Replay", "#333"]; 
-                  //Check if input value is > random number and within 1-99 range.
-
-            } 
-            else if (inputValue > randomNum && inputValue < 100) 
-            { 
-                  // Update the guess text and remaining chances
-                  [guess.textContent, remainChances.textContent] = ["Your guess is high", chance];
+                  guess.textContent = "Congratulations"; 
                   guess.style.color = "#333"; 
-
-                  //Check if input value is < random number and within 1-99 range. 
+                  input.disabled = true; 
+                  checkButton.textContent = "Replay"; 
+                  input.value = ""; 
+                  randomNum = Math.floor(Math.random() * 100); 
+                  chance = 10; 
             } 
-            else if (inputValue < randomNum && inputValue > 0) 
+            else if (inputValue > randomNum) 
             { 
-                  // Update the guessed number text and remaining chances
-                  [guess.textContent, remainChances.textContent] = ["Your guess is low", chance]; guess.style.color = "#333"; 
-                  // If the input value is not within the range of 1 to 99
+                  guess.textContent = "Your guess was high"; 
+                  guess.style.color = "#333"; 
+                  remainChances.textContent = chance; 
+            } 
+            else if (inputValue < randomNum) 
+            { 
+                  guess.textContent = "Your guess was low"; 
+                  guess.style.color = "#333"; 
+                  remainChances.textContent = chance; 
             } 
             else 
             { 
-                  // Update the guessed number text, color and remaining chances 
-                  [guess.textContent, remainChances.textContent] = ["Your number is invalid", chance]; guess.style.color = "#DE0611"; 
+                  guess.textContent = "Your number is invalid"; 
+                  guess.style.color = "#DE0611"; 
+                  remainChances.textContent = chance; 
             } 
-            // Check if the chance is zero
+
             if (chance == 0)
             { 
-                  //Update check button, disable input, and clear input value. 
-                  // Update guessed number text and color to indicate user loss. 
-                  [checkButton.textContent, input.disabled, input.value] = ["Replay", true, ""]; 
-                  [guess.textContent, guess.style.color] = ["You lost the game", "#DE0611"]; 
-            } 
-            if (chance < 0) 
-            { 
-                  window.location.reload(); 
+                  checkButton.textContent = "Replay"; 
+                  input.disabled = true; 
+                  input.value = ""; 
+                  randomNum = Math.floor(Math.random() * 100); 
+                  chance = 10; 
             }
-      }
-)
+      }) 
+});
 
 
+document.addEventListener("DOMContentLoaded", 
+function()
+{
 
-/* 
-** PAG  | Contect Us
-**    POPUP
-**     BY 
-** Israel R Parma
-*/
-
-function validateForm(){
-	
-	var x = document.getElementById('name');
-		if(x.value == null ||x.value == ""){
-			alert ("Name must be filled out");
-			return false;
-		}
-		
-		else if (x.value.legth < 5){
-			alert ("Please enter at least 5 chracters");
-			return false;
-		}
-
+      document.querySelector(".exit").addEventListener("click", 
+      function()
+      {
+            window.location.href = "../Pages/OurTeam.html";  
+            /* document.querySelector(".popup").style.display = "none"; */
+      })
+});
