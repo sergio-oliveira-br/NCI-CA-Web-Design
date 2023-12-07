@@ -896,3 +896,51 @@ input::-webkit-outer-spin-button
 	height: 30px;
 	color: #2C6433;
 }
+
+/*
+** PAG 6 | SHOP
+**     MENU
+**      BY
+**     MALU
+*/
+
+.shopMenu p
+{
+      text-align: center;
+      background-color: #ecf2e7;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding: 10px;
+      color: #31352E;
+      font-size: 20px;
+}
+
+
+.cart
+{
+      padding: 4px;
+      border-radius: 5%;
+      position: relative;
+      left: 35%;
+      color: #31352E;
+      transform: scale(1.5);
+      cursor:pointer;      
+}
+
+
+.euro
+{
+      position: relative;
+      left: 20%;
+      color: #31352E;
+      transform: scale(1.5);
+      cursor:pointer;
+      padding: 4px;
+      border-radius: 5%;     
+}
+
+.grid-gift
+{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+}
+
