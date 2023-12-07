@@ -384,3 +384,66 @@ function()
             /* document.querySelector(".popup").style.display = "none"; */
       })
 });
+
+
+
+/* 
+** | CONTACT US |
+**   
+*/
+
+function validateForm(){
+	
+	var name = document.getElementById("name");
+	
+		if (name.value == ""){
+			name.classList.add('error');
+			alert ("Name must be filled out");
+			return false;
+		}
+		
+		else {
+            name.classList.remove('error');
+        }
+	
+		
+		if (name.value.length < 5){
+			name.classList.add('error');
+			alert ("Please enter at least 5 characters");
+			return false;
+		}
+		
+		else {
+            name.classList.remove('error');
+        }
+	
+		
+		
+	var phone = document.getElementById("phone");
+		
+		if (phone.value == ""){
+			phone.classList.add('error');
+			alert ("phone must be filled out");
+			return false;
+		}
+		
+		else {
+            phone.classList.remove('error');
+        }
+	
+	
+	
+	var email = document.getElementById('email');
+		
+		if (email.value == ""){
+			email.classList.add('error');
+			alert ("email must be filled out");
+			return false;
+		}
+		
+		else {
+             email.classList.remove('error');
+        }
+	
+	
+}
