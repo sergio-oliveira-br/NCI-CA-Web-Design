@@ -32,7 +32,7 @@ function()
       document.querySelector("#close").addEventListener("click", 
       function()
       {
-            window.location.href = "../Pages/Shop.html";  
+            window.location.href = "../Pages/Game.html";  
             /* document.querySelector(".popup").style.display = "none"; */
       });
   
