@@ -514,6 +514,8 @@ function validateForm(){
 ** PAG 5 | SHOP
 **  BUY A GIFT
 **     BY
+** SERGIO OLIVEIRA 
+**   TO HELP 
 **    MALU
 */   
 
@@ -538,10 +540,10 @@ function buy1()
                                           item5 + item6 + item7 + item8))
 };
 
-function buy2()
+function buy2() //YOU NEED TO UPDATE
 {
       alert("Hello!")
-      var input2 = prompt("This costa €50!" + 
+      var input2 = prompt("This costa €22!" + 
                          "\nHow many itens would you like?")
       item2 = (input2 * 50);
             
@@ -550,10 +552,10 @@ function buy2()
                                           item5 + item6 + item7 + item8))
 };
 
-function buy3()
+function buy3() //YOU NEED TO UPDATE
 {
       alert("Hello!")
-      var input3 = prompt("This costa €22!" + 
+      var input3 = prompt("This costa €33!" + 
                          "\nHow many itens would you like?")
       item3 = input3 * 22;
       
@@ -562,10 +564,10 @@ function buy3()
                                           item5 + item6 + item7 + item8))
 };
 
-function buy4()
+function buy4() //YOU NEED TO UPDATE
 {
       alert("Hello!")
-      var input4 = prompt("This costa €?!" + 
+      var input4 = prompt("This costa €44!" + 
                          "\nHow many itens would you like?")
       item4 = input4 * 50;
       
@@ -574,10 +576,10 @@ function buy4()
                                           item5 + item6 + item7 + item8))
 };
 
-function buy5()
+function buy5() //YOU NEED TO UPDATE
 {
       alert("Hello!")
-      var input5 = prompt("This costa €50!" + 
+      var input5 = prompt("This costa €55!" + 
                          "\nHow many itens would you like?")
       item5 = input5 * 50;
       
@@ -586,10 +588,10 @@ function buy5()
                                           item5 + item6 + item7 + item8))
 };
 
-function buy6()
+function buy6() //YOU NEED TO UPDATE
 {
       alert("Hello!")
-      var input6 = prompt("This costa €50!" + 
+      var input6 = prompt("This costa €66!" + 
                          "\nHow many itens would you like?")
       item6 = input6 * 50;
       
@@ -598,10 +600,10 @@ function buy6()
                                           item5 + item6 + item7 + item8))
 };
 
-function buy7()
+function buy7() //YOU NEED TO UPDATE
 {
       alert("Hello!")
-      var input7 = prompt("This costa €50!" + 
+      var input7 = prompt("This costa €77!" + 
                          "\nHow many itens would you like?")
       item7 = input7 * 50;
 
@@ -612,10 +614,10 @@ function buy7()
                                           item5 + item6 + item7 + item8))
 };
 
-function buy8()
+function buy8() //YOU NEED TO UPDATE
 {
       alert("Hello!")
-      var input8 = prompt("This costa €50!" + 
+      var input8 = prompt("This costa €88!" + 
                          "\nHow many itens would you like?")
       item8 = input8 * 50;
 
@@ -632,7 +634,9 @@ function buy8()
 **  BUY A GIFT
 **  TOTALIZER
 **     BY
-**    MALU
+** SERGIO OLIVEIRA 
+**   TO HELP 
+**    MALU 
 */ 
 
 /*
