@@ -156,7 +156,7 @@ function buyTicket()
 
       var who
       who = prompt("Hello " + name + ", is that for you" +
-                  " or for some one else? " +
+                  " or for someone else? " +
                   " Please enter YES for you or NO for someone else.");
 
       if(who == "YES")
@@ -166,7 +166,21 @@ function buyTicket()
             if(student == "YES")
             {
                   alert("Your Ticket is €14");
+		    
                   var email = prompt("What is your email? ");
+		    
+		  var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // standard
+
+                              do 
+                              {
+                                    var email = prompt("What is your email? ");
+                                    
+                                    if (!emailPattern.test(email)) 
+                                    {
+                                          alert("Invalid email address. Please enter a valid email.");
+                                    }
+                              } 
+                              while (!emailPattern.test(email));
                   alert("Cool, Welcome to Zoo " + name + " !" +
                   "\nI've already sent an email to you, " + 
                   "and all details are there about your checkout");
@@ -265,6 +279,20 @@ function buyTicket()
                   alert("Your Ticket is €14");
 
                   var email = prompt("What is your email? ");
+
+		   var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // standard
+
+                              do 
+                              {
+                                    var email = prompt("What is your email? ");
+                                    
+                                    if (!emailPattern.test(email)) 
+                                    {
+                                          alert("Invalid email address. Please enter a valid email.");
+                                    }
+                              } 
+                              while (!emailPattern.test(email));
+
                   alert("Cool, Welcome to Zoo " + someone + " !" +
                   "\nI've already sent an email to you," + 
                   "and all details are there about your checkout.");
